@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AnnoNewWorldMods
 
 ## New World Shipyard
@@ -24,3 +25,6 @@ Downloads:
 - Mod.io: [here](https://mod.io/g/anno-1800/m/new-world-seat-of-power)
 - .zip Release: [here](https://github.com/Khorbos/AnnoNewWorldMods/releases/download/v1.0.3/NewWorldSeatOfPower-1.0.4.zip)
 
+=======
+# AnnoMods
+>>>>>>> df080cf (Initial commit)
