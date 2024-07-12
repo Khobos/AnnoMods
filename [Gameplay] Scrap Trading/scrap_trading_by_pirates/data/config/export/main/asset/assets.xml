@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="add" GUID='73' Path="/Values/Trader/Progression/*/GoodsProduction">
+    <Item>
+      <Good>112518</Good>
+      <ProductionPerMinute>6</ProductionPerMinute>
+    </Item>
+    <Item>
+      <Good>112520</Good>
+      <ProductionPerMinute>3</ProductionPerMinute>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='73' Path="/Values/Trader/Progression/*/OfferingGoods/Item/GoodSets">
+    <Item>
+      <Good>112518</Good>
+    </Item>
+    <Item>
+      <Good>112520</Good>
+    </Item>
+  </ModOp>
+  
+  <ModOp Type="add" GUID='76' Path="/Values/Trader/Progression/*/GoodsProduction">
+    <Item>
+      <Good>112523</Good>
+      <ProductionPerMinute>3</ProductionPerMinute>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='76' Path="/Values/Trader/Progression/*/OfferingGoods/Item/GoodSets">
+    <Item>
+      <Good>112523</Good>
+    </Item>
+  </ModOp>
+  
+  <ModOp Type='replace' GUID='112518' Path='/Values/Product/BasePrice'>
+     <BasePrice>2250</BasePrice>
+  </ModOp>
+  <ModOp Type='replace' GUID='112520' Path='/Values/Product/BasePrice'>
+     <BasePrice>4500</BasePrice>
+  </ModOp>
+  <ModOp Type='replace' GUID='112523' Path='/Values/Product/BasePrice'>
+     <BasePrice>17750</BasePrice>
+  </ModOp>
+</ModOps>
