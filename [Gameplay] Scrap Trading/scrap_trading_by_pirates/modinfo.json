@@ -1,0 +1,51 @@
+{
+  "Version": "1.0",
+  "ModID": "khobs_scrap_trading_pirates",
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": "Jouabilité",
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Scrap Trading by Pirates",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "With all those ships sunk and pillaged by pirates, they must have picked up some interesting things..",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "DLCDependencies": [
+    {
+      "DLC": "SunkenTreasures",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://discord.com/invite/KtfWbev",
+}

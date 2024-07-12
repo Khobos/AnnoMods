@@ -1,0 +1,56 @@
+{
+  "Version": "1.0",
+  "ModID": "khobs_scrap_trading",
+  "ModDependencies": [
+    "khobs_scrap_trading_pirates",
+    "khobs_scrap_trading_oldNate"
+  ],
+  "LoadAfterIds": [],
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": "Jouabilité",
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Scrap Trading",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "English": null,
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "DLCDependencies": [
+    {
+      "DLC": "SunkenTreasures",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://discord.com/invite/KtfWbev",
+}
