@@ -1,0 +1,91 @@
+﻿<ModOps>
+  <!-- Terraced Worker -->
+  <ModOp GUID="1500010200" Path="/Values" Type="Merge" ModOpID="TerracedWorkerAmount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp GUID="1500010201" Path="/Values" Type="Merge" ModOpID="TerracedWorkerLevel2Amount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <!-- Terraced Artisan -->
+  <ModOp GUID="1500010225" Path="/Values" Type="Merge" ModOpID="TerracedArtisansAmount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp GUID="1500010226" Path="/Values" Type="Merge" ModOpID="TerracedArtisansLevel2Amount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <!-- Terraced Jornaleros -->
+  <ModOp GUID="1500011250" Path="/Values" Type="Merge" ModOpID="TerracedJornalerosAmount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <!-- Terraced Obrero -->
+  <ModOp GUID="1500011043" Path="/Values" Type="Merge" ModOpID="TerracedObreroAmount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <!-- Terraced Artista -->
+  <ModOp GUID="1500011044" Path="/Values" Type="Merge" ModOpID="TerracedArtistaAmount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>1</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <!-- Terraced Skyscraper Artista -->
+  <ModOp GUID="1500011090" Path="/Values" Type="Merge" ModOpID="TerracedArtistaLevel2Amount" Skip="1">
+    <InfluenceSource>
+      <InfluenceAmount>1</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  
+  <!-- iModYourAnno Tweaking -->
+  <ImyaTweaks Title="Terraced" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedWorkerAmount" ExposeID="TerracedWorker" Description="Influence per terraced worker residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Worker lvl 2" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedWorkerLevel2Amount" ExposeID="TerracedWorkerLevel2" Description="Influence per upgraded terraced worker residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Artisan" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedWorkerLevel2Amount" ExposeID="TerracedArtisan" Description="Influence per terraced artisan residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Artisan lvl 2" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedWorkerLevel2Amount" ExposeID="TerracedArtisanLevel2" Description="Influence per upgraded terraced artisan residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Jornaleros" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedJornalerosAmount" ExposeID="TerracedJornaleros" Description="Influence per terraced jornaleros residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Obrero" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedObreroAmount" ExposeID="TerracedObrero" Description="Influence per terraced obrero residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Artista" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedArtistaAmount" ExposeID="TerracedArtista" Description="Influence per terraced artista residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaTweaks Title="Artista lvl 2" />
+  <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="TerracedArtistaLevel2Amount" ExposeID="TerracedArtistaLevel2" Description="Influence per upgraded terraced artista residence." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

@@ -1,0 +1,50 @@
+<ModOps>
+  <ModOp Path="/Values" GUID="1500010200" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500010201" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500010225" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500010226" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500011250" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500011043" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>0</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500011044" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>1</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+  <ModOp Path="/Values" GUID="1500011090" Type="Merge">
+    <InfluenceSource>
+      <InfluenceAmount>1</InfluenceAmount>
+      <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,55 @@
+﻿{
+  "Version": "1.0",
+  "ModID": "khobs_terraced_residences_provide_influence",
+  "ModDependencies": [
+    "jakob_industrial_cities",
+    "jakob_new_world_cities"
+  ],
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": "Jouabilité",
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Terraced Residences Provide Influence",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Jakob's Terraced Residences Provide Influence. The influence given can be edited from I Mod Your Anno.",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "DLCDependencies": [
+    {
+      "DLC": "Highlife",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Khobs",
+  "CreatorContact": "https://discord.com/invite/KtfWbev"
+}
