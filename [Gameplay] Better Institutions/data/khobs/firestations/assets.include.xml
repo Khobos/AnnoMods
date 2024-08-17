@@ -320,7 +320,6 @@
           <Variations>
             <Item>
               <Filename>data/dlc09/graphics/buildings/production/manufactory_01/manufactory_01.cfg</Filename>
-              <!-- <Filename>data/modgraphics/buildings/public/firestation_03/firestation_03.cfg</Filename> -->
             </Item>
           </Variations>
         </Object>
@@ -829,7 +828,7 @@
             <Item>
               <!-- <Filename>data/graphics/buildings/public/institution_02/institution_02.cfg</Filename> -->
               <!-- <Filename>data/dlc06/graphics/buildings/production/production_colony02_32/production_colony02_32.cfg</Filename> -->
-              <Filename>data/modgraphics/buildings/public/firestation_industrial/firestation_industrial4.cfg</Filename>
+              <Filename>data/modgraphics/buildings/public/firestation_industrial/firestation_industrial.cfg</Filename>
             </Item>
           </Variations>
         </Object>
