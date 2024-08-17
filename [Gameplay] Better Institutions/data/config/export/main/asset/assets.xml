@@ -1,0 +1,363 @@
+<!-- 
+*********************
+Start from 2143505301
+End at 2143505XXX
+Max at 2143505499
+*********************  
+
+***************
+BUILDING REGION
+***************
+2143505316 - Volunteer Fire Department - CityInstitutionBuilding
+2143505317 - Municipal Fire Department - CityInstitutionBuilding
+2143505318 - Metropolitan Fire Department - CityInstitutionBuilding
+2143505319 - Main Fire Department - CityInstitutionBuilding
+2143505320 - Park Rangers - CityInstitutionBuilding
+2143505321 - Industrial Fire Station - CityInstitutionBuilding
+
+2143505334 - Small Sheriff Office - CityInstitutionBuilding
+2143505341 - Municipal Police - CityInstitutionBuilding
+2143505342 - Municipal Prison - CityInstitutionBuilding
+2143505343 - Metropolitan Prison - CityInstitutionBuilding
+2143505344 - Police Academy - CityInstitutionBuilding
+
+2143505357 - Alms House - CityInstitutionBuilding
+2143505358 - Health Faculty - CityInstitutionBuilding
+
+2143505365 - Customs Office - CityInstitutionBuilding
+
+***********
+SKIN REGION
+***********
+2143505335 - Black Roof Sheriff Office - Skin
+2143505338 - Brick Sheriff Office - Skin
+
+***********
+TEXT REGION
+***********
+2143505301 - Public/Emergency BuildingCategoryName - Text
+2143505302 - Mod SkinCategoryDescription - Text
+2143505306 - Fire Emergency Basic InfoDescription - Text
+2143505307 - Police Emergency Basic InfoDescription - Text
+2143505308 - Medical Emergency Basic InfoDescription - Text
+2143505309 - Fire Public/Emergency Basic InfoDescription  - Text
+2143505310 - Police Public/Emergency Basic InfoDescription  - Text
+2143505311 - Hospital Public/Emergency Basic InfoDescription - Text
+2143505312 - Fire Public/Emergency Special Parks InfoDescription - Text
+2143505313 - Fire Public/Emergency Special Industry InfoDescription - Text
+2143505314 - Police Public/Emergency Special Police InfoDescription - Text
+2143505315 - Customs Public/Emergency InfoDescription - Text
+2143505323 - Metropolitan Fire Station Effect InfoDescription - Text
+2143505325 - Main Fire Station Effect InfoDescription - Text
+2143505327 - Park Rangers Effect InfoDescription - Text 
+2143505329 - Industrial Fire Station Effect InfoDescription - Text
+
+2143505336 - Black Roof Sheriff Office SkinName - Text
+2143505337 - Black Roof Sheriff Office SkinDescription - Text
+2143505339 - Brick Sheriff Office SkinName - Text
+2143505340 - Brick Sheriff Office SkinDescription - Text
+
+2143505346 - Prison Effect InfoDescription - Text
+2143505348 - Police Academy Effect InfoDescription - Text
+
+2143505360 - Almshouse Effect InfoDescription - Text
+2143505362 - Health Faculty Effect InfoDescription - Text
+
+2143505367 - Customs Office Effect InfoDescription - Text
+****************
+CATEGORY REGION
+****************
+
+2143505303 - Moderate Fire Construction Menu - ConstructionCategory
+2143505304 - Moderate Police Construction Menu - ConstructionCategory
+2143505305 - Moderate Hospital Construction Menu - ConstructionCategory
+
+***********
+BUFF REGION
+***********
+2143505322 - Metropolitan Firestation Effect - TownhallBuff
+2143505323 - Main Firestation Effect - TownhallBuff
+2143505324 - Park Ranger Effect - GuildhouseBuff
+2143505325 - Industrial Firestation Effect - GuildhouseBuff
+
+2143505345 - Prison Effect - TownhallBuff
+2143505347 - Police Academy Effect - TownhallBuff
+
+2143505359 - Alms House Effect - TownhallBuff
+2143505361 - Health Faculty Effect - TownhallBuff
+
+2143505366 - Customs Effect - TownhallBuff
+
+*********
+PRODUCTS
+*********
+2143505330 - FakeProductFireFighter - Product
+2143505331 - FakeProductParkRanger - Product
+
+2143505349 - FakeInputPrison - Product
+2143505350 - FakeProductPoliceAcademy - Product
+
+2143505363 - FakeHealthFacultyProduct - Product
+
+*******************
+UNITS RELATED REGION
+*******************
+2143505332 - Fire Volunteer - IncidentResolverUnit
+2143505333 - Park Rangers - IncidentResolverUnit
+
+2143505351 - Sheriff - IncidentResolverUnit
+2143505352 - Sheriff - FeedbackUnitClass
+2143505353 - Sheriff - TrafficFeedbackUnit
+2143505354 - Sheriff Deputies - IncidentResolverUnit
+2143505355 - Sheriff Deputies - FeedbackUnitClass
+2143505356 - Sheriff Deputies - TrafficFeedbackUnit
+
+2143505364 - Almshouse Nurses - IncidentResolverUnit
+
+**************
+TRIGGER REGION
+**************
+-->
+
+<ModOps>
+  <Include File="../../../../khobs/firestations/assets.include.xml" />
+  <Include File="../../../../khobs/police/assets.include.xml" />
+  <Include File="../../../../khobs/hospitals/assets.include.xml" />
+  <Include File="../../../../khobs/triggers/assets.include.xml" />
+  
+  <!-- Texts Assets -->
+  <ModOp Type="addNextSibling" GUID="1010463">
+    <Group>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505301</GUID>
+            <Name> Public/Emergency BuildingCategoryName</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505302</GUID>
+            <Name>Mod SkinCategoryDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505306</GUID>
+            <Name>Fire Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505307</GUID>
+            <Name>Police Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505308</GUID>
+            <Name>Hospital Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505309</GUID>
+            <Name>Fire Public/Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505310</GUID>
+            <Name>Police Public/Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505311</GUID>
+            <Name>Hospital Public/Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505312</GUID>
+            <Name>Fire Public/Emergency Special Parks InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505313</GUID>
+            <Name>Fire Public/Emergency Special Industry InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505314</GUID>
+            <Name>Police Public/Emergency Special Police InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505315</GUID>
+            <Name>Customs Public/Emergency InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505323</GUID>
+            <Name>Metropolitan Fire Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505325</GUID>
+            <Name>Main Fire Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505327</GUID>
+            <Name>Park Rangers Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505329</GUID>
+            <Name>Industrial Fire Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505339</GUID>
+            <Name>SkinName (Sheriff Office)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505340</GUID>
+            <Name>Sheriff Office SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505336</GUID>
+            <Name>SkinName (Black Roof Sheriff Office)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505337</GUID>
+            <Name>Black Roof Sheriff Office SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505346</GUID>
+            <Name>Prison Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505348</GUID>
+            <Name>Police Academy Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505360</GUID>
+            <Name>Almshouse Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505362</GUID>
+            <Name>Health Faculty Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505367</GUID>
+            <Name>Customs Office Effect Description</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </Group>
+  </ModOp>
+  <!-- End Texts Assets -->
+</ModOps>
