@@ -1,0 +1,1335 @@
+<ModOps>
+  <!-- Building Assets -->
+  <ModOp Type="addNextSibling" GUID="1010463">
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505316</GUID>
+          <Name>Volunteer Fire Department</Name>
+          <IconFilename>data/ui/city_institution/icon_volunteer_brigade.png</IconFilename>
+          <InfoDescription>2143505309</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>250</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/public/firestation_01/firestation_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202400</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <IncidentResolver>
+          <ResolverUnit>2143505332</ResolverUnit>
+          <ResolverUnitCount>1</ResolverUnitCount>
+          <SpecialUnit>100580</SpecialUnit>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>1</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+          <ResolvableIncidents>Fire</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>75</Amount>
+              <InactiveAmount>75</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>
+              <Amount>25</Amount>
+              <InactiveAmount>75</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture />
+        <QuestObject />
+        <Upgradable />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505317</GUID>
+          <Name>Municipal Fire Station</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade.png</IconFilename>
+          <InfoDescription>2143505309</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>750</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/institution_02/institution_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202400</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <IncidentResolver>
+          <ResolverUnit>100579</ResolverUnit>
+          <ResolverUnitCount>2</ResolverUnitCount>
+          <SpecialUnit>100580</SpecialUnit>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>1</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+          <ResolvableIncidents>Fire</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>100</Amount>
+              <InactiveAmount>50</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable>
+           <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture>
+            <Attractiveness>5</Attractiveness>
+            <CultureType>Monument</CultureType>
+        </Culture>
+        <QuestObject />
+        <Upgradable />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505318</GUID>
+          <Name>Metropolitan Fire Department</Name>
+          <IconFilename>data/ui/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
+          <InfoDescription>2143505309</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>2</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc09/graphics/buildings/production/manufactory_01/manufactory_01.cfg</Filename>
+              <!-- <Filename>data/modgraphics/buildings/public/firestation_03/firestation_03.cfg</Filename> -->
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+                <ActiveSounds>
+                  <Item>
+                    <Sound>202400</Sound>
+                  </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                  <InfectedFire>
+                    <Item>
+                      <Sound>214659</Sound>
+                    </Item>
+                  </InfectedFire>
+                </IncidentSounds>
+                <BuildingRepaired>
+                  <Item>
+                    <Sound>203866</Sound>
+                  </Item>
+                </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <BuffFactory>
+          <ProductionBuffs>
+              <Item>
+                  <ProductivityBuff>2143505322</ProductivityBuff>
+              </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>2143505330</Product>
+                  <StorageAmount>1</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+        <IncidentResolver>
+          <ResolverUnit>100579</ResolverUnit>
+          <ResolverUnitCount>3</ResolverUnitCount>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>0</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+          <ResolvableIncidents>Fire</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>75</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable>
+            <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture>
+            <Attractiveness>10</Attractiveness>
+            <CultureType>Monument</CultureType>
+        </Culture>
+        <QuestObject />
+        <Upgradable />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505319</GUID>
+          <Name>Main Fire Department</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade_advanced.png</IconFilename>
+          <InfoDescription>2143505309</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2143505301</BuildingCategoryName>
+          <BuildingType>Factory</BuildingType>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>15000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc09/graphics/buildings/public/mall/mall_04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202400</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <BuffFactory>
+          <ProductionBuffs>
+              <Item>
+                  <ProductivityBuff>2143505324</ProductivityBuff>
+              </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>2143505330</Product>
+                  <StorageAmount>1</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+        <IncidentResolver>
+          <ResolverUnit>100579</ResolverUnit>
+          <!-- <SpecialUnit>100579</SpecialUnit> -->
+          <ResolverUnitCount>4</ResolverUnitCount>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>0</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+          <ResolvableIncidents>Fire</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>2500</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>175</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable>
+            <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <IncidentInfectable>
+            <Infectable>
+                <Fire>
+                    <Base>0</Base>
+                </Fire>
+                <Riot>
+                    <Base>0</Base>
+                </Riot>
+                <Illness>
+                    <Base>0</Base>
+                </Illness>
+                <Explosion>
+                    <Base>0</Base>
+                </Explosion>
+            </Infectable>
+        </IncidentInfectable>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture>
+            <Attractiveness>25</Attractiveness>
+            <CultureType>Monument</CultureType>
+        </Culture>
+        <QuestObject />
+        <Upgradable />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505320</GUID>
+          <Name>Park Rangers</Name>
+          <IconFilename>data/ui/city_institution/icon_park_ranger.png</IconFilename>
+          <InfoDescription>2143505312</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2143505301</BuildingCategoryName>
+          <BuildingType>Factory</BuildingType>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <!-- <Filename>data/graphics/buildings/production/agriculture_09/agriculture_09.cfg</Filename> -->
+              <Filename>data/modgraphics/buildings/public/parkranger/parkranger.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202400</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <BuffFactory>
+          <ProductionBuffs>
+              <Item>
+                  <ProductivityBuff>2143505326</ProductivityBuff>
+              </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>2143505331</Product>
+                  <StorageAmount>1</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+        <IncidentResolver>
+          <ResolverUnit>2143505333</ResolverUnit>
+          <!-- <ResolverUnit>100579</ResolverUnit> -->
+          <ResolverUnitCount>1</ResolverUnitCount>
+          <!-- <SpecialUnit>100579</SpecialUnit> -->
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>0</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds> 
+          <ResolvableIncidents>Fire;Riot</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>2500</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable>
+            <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Riot>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Riot>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture />
+        <QuestObject />
+        <Upgradable />
+        <Heated>
+          <RequiresHeat>0</RequiresHeat>
+        </Heated>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505321</GUID>
+          <Name>Industrial Fire Station</Name>
+          <IconFilename>data/ui/city_institution/icon_industrial_fire_brigade.png</IconFilename>
+          <InfoDescription>2143505313</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2143505301</BuildingCategoryName>
+          <BuildingType>Factory</BuildingType>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>750</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <!-- <Filename>data/graphics/buildings/public/institution_02/institution_02.cfg</Filename> -->
+              <!-- <Filename>data/dlc06/graphics/buildings/production/production_colony02_32/production_colony02_32.cfg</Filename> -->
+              <Filename>data/modgraphics/buildings/public/firestation_industrial/firestation_industrial4.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202400</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <BuffFactory>
+          <ProductionBuffs>
+              <Item>
+                  <ProductivityBuff>2143505328</ProductivityBuff>
+              </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>1010225</Product>
+                  <Amount>5</Amount>
+                  <StorageAmount>10</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <IncidentResolver>
+          <ResolverUnit>7266</ResolverUnit>
+          <ResolverUnitCount>3</ResolverUnitCount>
+          <!-- <SpecialUnit>19756</SpecialUnit> -->
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>0</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+          <ResolvableIncidents>Fire</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>25000</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>200</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable>
+            <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-10</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-12</Influence>
+              <Distance>15</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture />
+        <QuestObject />
+        <Upgradable />
+      </Values>
+    </Asset>
+  </ModOp>
+    <!-- End Building Assets -->
+
+    <!-- Construction Category -->
+    <ModOp GUID="25000190" Type="addNextSibling">
+        <Asset>
+          <Template>ConstructionCategory</Template>
+          <Values>
+            <Standard>
+              <GUID>2143505303</GUID>
+              <Name>moderate firestation construction menu</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade.png</IconFilename>
+            </Standard>
+            <ConstructionCategory>
+              <BuildingList>
+                <!-- <Item>
+                  <Building>2143505316</Building>
+                </Item> -->
+                <Item>
+                  <Building>2143505320</Building>
+                </Item>
+                <Item>
+                  <Building>1010463</Building>
+                </Item>
+                <Item>
+                  <Building>2143505317</Building>
+                </Item>
+                <Item>
+                  <Building>2143505321</Building>
+                </Item>
+                <Item>
+                  <Building>2143505318</Building>
+                </Item>
+                <Item>
+                  <Building>2143505319</Building>
+                </Item>
+                <Item>
+                  <Building>6354</Building>
+                </Item>
+              </BuildingList>
+            </ConstructionCategory>
+            <Locked />
+          </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ADD To Farmer Category -->
+    <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
+      <!-- <Item>
+        <Building>2143505316</Building>
+      </Item> -->
+      <Item>
+        <Building>2143505320</Building>
+      </Item>
+    </ModOp>  
+    <!-- ADD To Worker Category -->
+    <ModOp Type="addNextSibling" GUID='25000190' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500024']">
+      <Item>
+        <Building>2143505317</Building>
+      </Item> 
+      <Item>
+        <Building>2143505321</Building>
+      </Item> 
+    </ModOp>
+    <!-- ADD To Artisan Category -->
+    <ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500010']">
+      <Item>
+        <Building>2143505318</Building>
+      </Item> 
+    </ModOp>
+    <!-- ADD To Engineer Category -->
+    <ModOp Type="addNextSibling" GUID='25000192' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500017']">
+      <Item>
+        <Building>2143505319</Building>
+      </Item> 
+    </ModOp>
+    <!-- ADD To Investor Category -->
+    <ModOp Type="addNextSibling" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500021']">
+      <Item>
+        <Building>6354</Building>
+      </Item>
+    </ModOp>
+    <!-- ADD To City Category -->
+    <ModOp GUID="500092" Type="replace" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
+        <Item>
+            <Building>2143505303</Building>
+        </Item>
+    </ModOp>
+    <!-- End Construction Category-->
+    
+    <!-- TownhallBuff -->
+    <ModOp GUID="135111" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>2143505322</GUID>
+                <Name>Metropolitan Firestation Effect</Name>
+                <IconFilename>data\ui\city_institution\icon_firestation_effect.png</IconFilename>
+                <InfoDescription>2143505323</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                        <GUID>192445</GUID>
+                    </Item>
+                    <Item>
+                        <GUID>193862</GUID>
+                    </Item>
+                    <Item>
+                        <GUID>193861</GUID>
+                    </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                <AdditionalHappiness>4</AdditionalHappiness>
+                <GoodConsumptionUpgrade />
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade>
+                <IncidentFireIncreaseUpgrade>
+                    <Value>-3</Value>
+                </IncidentFireIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>2143505324</GUID>
+                <Name>Main Firestation Effect</Name>
+                <IconFilename>data\ui\city_institution\icon_firestation_advanced.png</IconFilename>
+                <InfoDescription>2143505325</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                        <GUID>190041</GUID>
+                    </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                    <AdditionalHappiness>8</AdditionalHappiness>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1010216</ProvidedNeed>
+                            <AmountInPercent>-25</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1010214</ProvidedNeed>
+                            <AmountInPercent>-25</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1010257</ProvidedNeed>
+                            <AmountInPercent>-15</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-5</Value>
+                    </IncidentFireIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>2143505326</GUID>
+                <Name>Park Ranger Effect</Name>
+                <IconFilename>data\ui\city_institution\icon_park_ranger_effect.png</IconFilename>
+                <InfoDescription>2143505327</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190778</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>8924</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1010558</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1962</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <NeededAreaPercentUpgrade>
+                        <Value>-15</Value>
+                    </NeededAreaPercentUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade/>
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-2</Value>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-2</Value>
+                    </IncidentExplosionIncreaseUpgrade>
+                    <IncidentRiotIncreaseUpgrade>
+                        <Value>-2</Value>
+                    </IncidentRiotIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>2143505328</GUID>
+                <Name>Industrial Firestation Effect</Name>
+                <IconFilename>data\ui\city_institution\icon_industrial_fire_brigade.png</IconFilename>
+                <InfoDescription>2143505329</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                      <Item>
+                          <GUID>193771</GUID>
+                      </Item>
+                      <Item>
+                          <GUID>194011</GUID>
+                      </Item>
+                      <Item>
+                          <GUID>194027</GUID>
+                      </Item>
+                      <!-- <Item>
+                          <GUID>193875</GUID>
+                      </Item> -->
+                    </EffectTargets>
+                </ItemEffect>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade>
+                  <MaintenanceUpgrade>
+                    <Value>15</Value>
+                    <Percental>1</Percental>
+                  </MaintenanceUpgrade>
+                  <WorkforceAmountUpgrade>
+                    <Value>10</Value>
+                    <Percental>1</Percental>
+                  </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-2</Value>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-5</Value>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Fake Product -->
+    <ModOp GUID="917" Type="addNextSibling">
+      <Asset>
+          <Template>Product</Template>
+          <Values>
+              <Standard>
+                  <GUID>2143505330</GUID>
+                  <Name>FakeProductFirefighter</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_fireman_102.png</IconFilename>
+              </Standard>
+              <Locked>
+                  <DefaultLockedState>0</DefaultLockedState>
+              </Locked>
+              <Product>
+                  <DeltaOnly>1</DeltaOnly>
+                  <IsAbstract>1</IsAbstract>
+                  <AssociatedRegion>Moderate</AssociatedRegion>
+                  <HideInUI>0</HideInUI>
+              </Product>
+          </Values>
+      </Asset>
+      <Asset>
+          <Template>Product</Template>
+          <Values>
+              <Standard>
+                  <GUID>2143505331</GUID>
+                  <Name>FakeProductParkRanger</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_forester_814.png</IconFilename>
+              </Standard>
+              <Locked>
+                  <DefaultLockedState>0</DefaultLockedState>
+              </Locked>
+              <Product>
+                  <DeltaOnly>1</DeltaOnly>
+                  <IsAbstract>1</IsAbstract>
+                  <AssociatedRegion>Moderate</AssociatedRegion>
+                  <HideInUI>0</HideInUI>
+              </Product>
+          </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Product -->
+
+    <!-- Units -->
+    <ModOp GUID="100581" Type="addNextSibling">
+      <Asset>
+          <Template>IncidentResolverUnit</Template>
+          <Values>
+              <Standard>
+              <GUID>2143505332</GUID>
+              <Name>Fire Volunteer</Name>
+              <IconFilename>data/ui/2kimages/main/icons/icon_fire_brigade_2d.png</IconFilename>
+              </Standard>
+              <IncidentResolverUnit>
+              <ResolverOperatingDistance>37000</ResolverOperatingDistance>
+              <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
+              <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
+              <FeedbackUnitClass>140714</FeedbackUnitClass>
+              </IncidentResolverUnit>
+              <Text>
+                <TextOverride>100580</TextOverride>
+              </Text>
+          </Values>
+      </Asset>
+      <Asset>
+          <Template>IncidentResolverUnit</Template>
+          <Values>
+              <Standard>
+              <GUID>2143505333</GUID>
+              <Name>Park Rangers</Name>
+              <IconFilename>data/ui/2kimages/main/icons/icon_tree_progress.png</IconFilename>
+              </Standard>
+              <IncidentResolverUnit>
+                  <ResolverOperatingDistance>37000</ResolverOperatingDistance>
+                  <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
+                  <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
+                  <FeedbackUnitClass>140714</FeedbackUnitClass>
+              </IncidentResolverUnit>
+          </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Units -->
+</ModOps>

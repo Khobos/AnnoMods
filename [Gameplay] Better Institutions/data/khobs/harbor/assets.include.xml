@@ -1,0 +1,250 @@
+<ModOps>
+    <!-- Building Assets -->
+    <ModOp Type="addNextSibling" GUID="1010463">
+      <Asset>
+        <Template>CityInstitutionBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505365</GUID>
+            <Name>Customs Office</Name>
+            <IconFilename>data/ui/city_institution/icon_customs.png</IconFilename>
+            <InfoDescription>2143505315</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildingType>Factory</BuildingType>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <TerrainType>Water_Including_Coast</TerrainType>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>2500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>4</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>8</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>2</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornaments_kiosk_01_1x1.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <GUIType>CityInstitution</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>202400</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <BuffFactory>
+            <ProductionBuffs>
+                <Item>
+                    <ProductivityBuff>2143505366</ProductivityBuff>
+                </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>30</ProductionBuffDistance>
+          </BuffFactory>
+          <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>2143505367</Product>
+                    <StorageAmount>1</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <CycleTime>120</CycleTime>
+            <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+          </FactoryBase>
+          <LogisticNode>
+            <TransporterCountMax>0</TransporterCountMax>
+          </LogisticNode>
+          <IncidentResolver>
+            <ResolverUnit>100579</ResolverUnit>
+            <ResolverUnitCount>0</ResolverUnitCount>
+            <SpecialUnitThresholds>
+              <Item>
+                <UnitAmount>0</UnitAmount>
+                <HappinessThreshold>0</HappinessThreshold>
+              </Item>
+            </SpecialUnitThresholds>
+            <ResolvableIncidents>Riot</ResolvableIncidents>
+            <DuringConstructionText>17464</DuringConstructionText>
+            <DuringIncidentHeadline>3780</DuringIncidentHeadline>
+            <ActionButtonText>3690</ActionButtonText>
+            <DuringIncidentHeadlineIcon>500322</DuringIncidentHeadlineIcon>
+          </IncidentResolver>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>500</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>75</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable />
+          <Pausable>
+              <CanPauseManually>1</CanPauseManually>
+          </Pausable>
+          <IncidentInfluencer>
+            <Influence>
+              <Fire>
+                <Influence>-7</Influence>
+                <Distance>15</Distance>
+              </Fire>
+              <Explosion>
+                <Influence>-7</Influence>
+                <Distance>9</Distance>
+              </Explosion>
+            </Influence>
+          </IncidentInfluencer>
+          <DelayedConstruction />
+          <AmbientMoodProvider>
+            <AmbientMood>ResidenceTier1</AmbientMood>
+          </AmbientMoodProvider>
+          <Culture>
+              <Attractiveness>10</Attractiveness>
+              <CultureType>Monument</CultureType>
+          </Culture>
+          <QuestObject />
+          <Upgradable />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Building Assets -->
+
+    <!-- ADD To Category -->
+    <ModOp Type="addNextSibling" Path="//Values/ConstructionCategory/BuildingList/Item[Building='100519']">
+      <Item>
+       <Building>2143505365</Building>
+     </Item>     
+    </ModOp>  
+    <!-- End Category-->
+    
+    <!-- TownhallBuff -->
+    <ModOp GUID="135111" Type="addNextSibling">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505366</GUID>
+            <Name>Customs Effect</Name>
+            <IconFilename>data/ui/city_institution/icon_harbour_customs.png</IconFilename>
+            <InfoDescription>2143505367</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>193897</GUID>            
+              </Item>
+              <!-- <Item>
+                <GUID>191297</GUID>            
+              </Item> -->
+              <!-- <Item>
+                <GUID>193480</GUID>            
+              </Item>
+              <Item>
+                <GUID>601460</GUID>            
+              </Item> -->
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text />
+          <BuildingUpgrade />
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <PassiveTradeGoodGenUpgrade>
+            <GenProbability>30</GenProbability>
+            <GenPool>190807</GenPool>            
+          </PassiveTradeGoodGenUpgrade>
+          <KontorUpgrade>
+            <BlockBuyShare>1</BlockBuyShare>
+          </KontorUpgrade>
+          <FactoryUpgrade />
+        </Values>
+    </Asset>
+    </ModOp>
+
+    <!-- Fake Product -->
+    <ModOp GUID="917" Type="addNextSibling">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505367</GUID>
+            <Name>FakeCustomOfficeProduct</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_rowing_boat.png</IconFilename>
+          </Standard>
+          <Locked />
+          <Product>
+            <DeltaOnly>1</DeltaOnly>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <HideInUI>0</HideInUI>
+          </Product>
+          <ExpeditionAttribute />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Product -->
+</ModOps>
