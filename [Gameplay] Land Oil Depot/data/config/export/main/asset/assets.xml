@@ -284,6 +284,28 @@
     </ModOp>
     <!-- End Categories -->
 
+    <!-- Texts -->
+    <ModOp GUID="10951" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505012</GUID>
+                    <Name>Oil Harbor InfoDescription</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Provides trains for transportation and allows storing and trading of oil.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14485</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- End Texts -->
      
     <!-- Triggers -->
     <ModOp GUID="130248" Type="addNextSibling">
