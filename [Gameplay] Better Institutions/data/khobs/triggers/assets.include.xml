@@ -31,9 +31,6 @@
                           <Item>
                             <Asset>2143505316</Asset>
                           </Item>
-                          <Item>
-                            <Asset>2143505334</Asset>
-                          </Item>
                         </UnhideAssets>
                         <UnlockAssets />
                       </ActionUnlockAsset>
@@ -87,7 +84,7 @@
             <TriggerSetup />
           </Values>
         </Asset>
-        <!-- Unlock 1 worker -->
+        <!-- Unhide 300 workers -->
         <Asset>
           <Template>Trigger</Template>
           <Values>
@@ -103,7 +100,7 @@
                   <ConditionPlayerCounter>
                     <PlayerCounter>PopulationByLevel</PlayerCounter>
                     <Context>15000001</Context>
-                    <CounterAmount>1</CounterAmount>
+                    <CounterAmount>300</CounterAmount>
                   </ConditionPlayerCounter>
                 </Values>
               </TriggerCondition>
@@ -114,12 +111,17 @@
                     <Values>
                       <Action />
                       <ActionUnlockAsset>
-                        <UnlockAssets>
+                        <UnhideAssets>
                           <Item>
-                            <Asset>2143505317</Asset>
+                            <Asset>2143505334</Asset>
                           </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
+                          <Item>
+                            <Asset>2143505341</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>2143505342</Asset>
+                          </Item>
+                        </UnhideAssets>
                       </ActionUnlockAsset>
                     </Values>
                   </TriggerAction>
