@@ -958,9 +958,9 @@
             </Standard>
             <ConstructionCategory>
               <BuildingList>
-                <!-- <Item>
+                <Item>
                   <Building>2143505316</Building>
-                </Item> -->
+                </Item>
                 <Item>
                   <Building>2143505320</Building>
                 </Item>
@@ -991,9 +991,8 @@
 
     <!-- ADD To Farmer Category -->
     <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
-      <!-- <Item>
+      <Item>
         <Building>2143505316</Building>
-      </Item> -->
       <Item>
         <Building>2143505320</Building>
       </Item>
