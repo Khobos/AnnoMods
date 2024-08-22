@@ -1198,10 +1198,14 @@
         <Building>2143505320</Building>
       </Item>
     </ModOp>  
+    <!-- REMOVE To Farmer Category -->
+    <ModOp Type="remove" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']" />
+
     <!-- ADD To Worker Category -->
     <ModOp Type="addNextSibling" GUID='25000190' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500024']">
       <Item>
-        <Building>2143505317</Building>
+        <Building>1010463</Building>
+      </Item>      
       <Item>
         <Building>2143505370</Building>
       </Item> 
