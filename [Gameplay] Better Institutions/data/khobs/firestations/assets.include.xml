@@ -278,6 +278,177 @@
       <Template>CityInstitutionBuilding</Template>
       <Values>
         <Standard>
+          <GUID>2143505370</GUID>
+          <Name>Mine Rescue Station</Name>
+          <IconFilename>data/ui/city_institution/icon_mine_firestation.png</IconFilename>
+          <InfoDescription>2143505371</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/public/institution_02_mine/institution_02_mine_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2143505370</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2143505302</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2143505374</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>CityInstitution</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202400</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <BuffFactory>
+          <ProductionBuffs>
+              <Item>
+                  <ProductivityBuff>2143505372</ProductivityBuff>
+              </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>2143505330</Product>
+                  <StorageAmount>1</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+        <IncidentResolver>
+          <ResolverUnit>100579</ResolverUnit>
+          <ResolverUnitCount>2</ResolverUnitCount>
+          <SpecialUnit>100580</SpecialUnit>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>1</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+          <ResolvableIncidents>Fire</ResolvableIncidents>
+          <DuringConstructionText>17463</DuringConstructionText>
+          <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+          <ActionButtonText>3690</ActionButtonText>
+          <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+        </IncidentResolver>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>450</Amount>
+              <InactiveAmount>225</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>25</Amount>
+              <InactiveAmount>10</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable>
+            <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfluencer>
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>15</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <DelayedConstruction />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+        </AmbientMoodProvider>
+        <Culture />
+        <QuestObject />
+        <Upgradable />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>CityInstitutionBuilding</Template>
+      <Values>
+        <Standard>
           <GUID>2143505318</GUID>
           <Name>City Fire Department</Name>
           <IconFilename>data/ui/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
@@ -946,6 +1117,33 @@
   </ModOp>
     <!-- End Building Assets -->
 
+    <!-- Skin Assets -->
+    <ModOp Type="addNextSibling" GUID="5230">
+      <Asset>
+        <Template>Skin</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505374</GUID>
+            <Name>Black Mine Rescue Station</Name>
+            <IconFilename>data/ui/city_institution/icon_mine_firestation.png</IconFilename>
+          </Standard>
+          <Skin>
+            <SkinName>2143505375</SkinName>
+            <SkinDescription>2143505376</SkinDescription>
+            <SkinVariations>
+              <Item>
+                <FileName>data/modgraphics/buildings/public/institution_02_mine/institution_02_mine_02.cfg</FileName>
+              </Item>
+            </SkinVariations>
+            <SkinCategoryDescription>2143505302</SkinCategoryDescription>
+          </Skin>
+          <Locked />
+          <Text />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!--  End Skin Assets -->
+
     <!-- Construction Category -->
     <ModOp GUID="25000190" Type="addNextSibling">
         <Asset>
@@ -963,6 +1161,9 @@
                 </Item>
                 <Item>
                   <Building>2143505320</Building>
+                </Item>
+                <Item>
+                  <Building>2143505370</Building>
                 </Item>
                 <Item>
                   <Building>1010463</Building>
@@ -1001,6 +1202,8 @@
     <ModOp Type="addNextSibling" GUID='25000190' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500024']">
       <Item>
         <Building>2143505317</Building>
+      <Item>
+        <Building>2143505370</Building>
       </Item> 
       <Item>
         <Building>2143505321</Building>
@@ -1223,6 +1426,59 @@
                   </MaintenanceUpgrade>
                   <WorkforceAmountUpgrade>
                     <Value>10</Value>
+                    <Percental>1</Percental>
+                  </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-2</Value>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-5</Value>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>2143505372</GUID>
+                <Name>Mine Emergency Station Effect</Name>
+                <IconFilename>data\ui\city_institution\icon_mine_firestation.png</IconFilename>
+                <InfoDescription>2143505373</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                      <Item>
+                          <GUID>190786</GUID>
+                      </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade>
+                  <MaintenanceUpgrade>
+                    <Value>50</Value>
+                    <Percental>1</Percental>
+                  </MaintenanceUpgrade>
+                  <WorkforceAmountUpgrade>
+                    <Value>15</Value>
                     <Percental>1</Percental>
                   </WorkforceAmountUpgrade>
                 </BuildingUpgrade>

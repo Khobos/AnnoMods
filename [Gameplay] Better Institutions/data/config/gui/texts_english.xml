@@ -263,5 +263,33 @@
       <GUID>2143505367</GUID>
       <Text>Your port officers read loading manifests, inspect ships and take stock of warehouses.</Text>
     </Text>
+    <Text>
+      <GUID>2143505370</GUID>
+      <Text>Mine Rescue Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505371</GUID>
+      <Text>Responds to fires within range. Provides additionnal services for your mines.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505372</GUID>
+      <Text>Mine rescue workers</Text>
+    </Text>
+    <Text>
+      <GUID>2143505373</GUID>
+      <Text>These rescuers ensure that everything is in order in the galleries, and that the ventilation systems continue to operate.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505374</GUID>
+      <Text>Black Rescue Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505375</GUID>
+      <Text>Black Rescue Station</Text>
+    </Text>
+    <Text>
+      <GUID>2143505376</GUID>
+      <Text>More suitable for certain mines.</Text>
+    </Text>
   </ModOp>
 </ModOps>

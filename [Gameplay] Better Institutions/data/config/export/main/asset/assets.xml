@@ -14,7 +14,7 @@ BUILDING REGION
 2143505319 - Main Fire Department - CityInstitutionBuilding
 2143505320 - Park Rangers - CityInstitutionBuilding
 2143505321 - Industrial Fire Station - CityInstitutionBuilding
-
+2143505370 - Mine Emergency Station - CityInstitutionBuilding
 2143505334 - Small Sheriff Office - CityInstitutionBuilding
 2143505341 - Municipal Police - CityInstitutionBuilding
 2143505342 - Municipal Prison - CityInstitutionBuilding
@@ -51,6 +51,8 @@ TEXT REGION
 2143505325 - Main Fire Station Effect InfoDescription - Text
 2143505327 - Park Rangers Effect InfoDescription - Text 
 2143505329 - Industrial Fire Station Effect InfoDescription - Text
+2143505371 - Mine Emergency Station InfoDescription - Text
+2143505373 - Mine Emergency Station Effect InfoDescription - Text
 
 2143505336 - Black Roof Sheriff Office SkinName - Text
 2143505337 - Black Roof Sheriff Office SkinDescription - Text
@@ -79,6 +81,7 @@ BUFF REGION
 2143505323 - Main Firestation Effect - TownhallBuff
 2143505324 - Park Ranger Effect - GuildhouseBuff
 2143505325 - Industrial Firestation Effect - GuildhouseBuff
+2143505372 - Mine Emergency Station - GuildhouseBuff
 
 2143505345 - Prison Effect - TownhallBuff
 2143505347 - Police Academy Effect - TownhallBuff
@@ -354,6 +357,42 @@ TRIGGER REGION
           <Standard>
             <GUID>2143505367</GUID>
             <Name>Customs Office Effect Description</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505371</GUID>
+            <Name>Mine Rescue Station InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505373</GUID>
+            <Name>Mine Rescue Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505375</GUID>
+            <Name>Mine Rescue Station SkinName</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505376</GUID>
+            <Name>Mine Rescue Station SkinDescription</Name>
           </Standard>
         </Values>
       </Asset>
