@@ -141,7 +141,7 @@
       <Values>
         <Standard>
           <GUID>2143505317</GUID>
-          <Name>Municipal Fire Station</Name>
+          <Name>Farm Fire Brigade</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_farm_fire_brigade.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
@@ -279,7 +279,7 @@
       <Values>
         <Standard>
           <GUID>2143505318</GUID>
-          <Name>Metropolitan Fire Department</Name>
+          <Name>City Fire Department</Name>
           <IconFilename>data/ui/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
@@ -1039,7 +1039,7 @@
             <Values>
                 <Standard>
                 <GUID>2143505322</GUID>
-                <Name>Metropolitan Firestation Effect</Name>
+                <Name>City Firestation Effect</Name>
                 <IconFilename>data\ui\city_institution\icon_firestation_effect.png</IconFilename>
                 <InfoDescription>2143505323</InfoDescription>
                 </Standard>
