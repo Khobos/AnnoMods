@@ -142,8 +142,8 @@
         <Standard>
           <GUID>2143505317</GUID>
           <Name>Farm Fire Brigade</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_farm_fire_brigade.png</IconFilename>
-          <InfoDescription>2143505309</InfoDescription>
+          <IconFilename>data/ui/city_institution/icon_farm_fire_brigade.png</IconFilename>
+          <InfoDescription>2143505377</InfoDescription>
         </Standard>
         <Building>
           <BuildingType>Factory</BuildingType>
@@ -159,11 +159,11 @@
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>8</Amount>
+              <Amount>6</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <Amount>4</Amount>
+              <Amount>5</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
@@ -179,7 +179,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/public/institution_02/institution_02.cfg</Filename>
+              <Filename>data/modgraphics/buildings/public/institution_02_agriculture/institution_02_agriculture.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -217,6 +217,28 @@
         <FeedbackController />
         <Infolayer />
         <UpgradeList />
+        <BuffFactory>
+          <ProductionBuffs>
+              <Item>
+                  <ProductivityBuff>2143505378</ProductivityBuff>
+              </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>2143505330</Product>
+                  <StorageAmount>1</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>1</MissingConnectionInfolayer>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
         <IncidentResolver>
           <ResolverUnit>100579</ResolverUnit>
           <ResolverUnitCount>2</ResolverUnitCount>
@@ -237,12 +259,13 @@
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>100</Amount>
-              <InactiveAmount>50</InactiveAmount>
+              <Amount>375</Amount>
+              <InactiveAmount>175</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010115</Product>
-              <Amount>50</Amount>
+              <Product>1010052</Product>
+              <Amount>25</Amount>
+              <InactiveAmount>15</InactiveAmount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -266,10 +289,7 @@
         <AmbientMoodProvider>
           <AmbientMood>ResidenceTier1</AmbientMood>
         </AmbientMoodProvider>
-        <Culture>
-            <Attractiveness>5</Attractiveness>
-            <CultureType>Monument</CultureType>
-        </Culture>
+        <Culture/>
         <QuestObject />
         <Upgradable />
       </Values>
@@ -1194,6 +1214,10 @@
     <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
       <Item>
         <Building>2143505316</Building>
+      </Item>
+      <Item>
+        <Building>2143505317</Building>
+      </Item> 
       <Item>
         <Building>2143505320</Building>
       </Item>
@@ -1496,6 +1520,61 @@
                     <IncidentExplosionIncreaseUpgrade>
                         <Value>-5</Value>
                     </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>2143505378</GUID>
+                <Name>Farm Emergency Station Effect</Name>
+                <IconFilename>data\ui\city_institution\icon_farm_fire_brigade.png</IconFilename>
+                <InfoDescription>2143505379</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                      <Item>
+                          <GUID>191471</GUID>
+                      </Item>
+                      <Item>
+                          <GUID>190872</GUID>
+                      </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade>
+                  <MaintenanceUpgrade>
+                    <Value>15</Value>
+                    <Percental>1</Percental>
+                  </MaintenanceUpgrade>
+                  <WorkforceAmountUpgrade>
+                    <Value>15</Value>
+                    <Percental>1</Percental>
+                  </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade>
+                  <ModuleLimitPercent>-5</ModuleLimitPercent>
+                </ModuleOwnerUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-2</Value>
+                    </IncidentFireIncreaseUpgrade>
                 </IncidentInfectableUpgrade>
                 <PowerplantUpgrade/>
                 <IndustrializableUpgrade/>

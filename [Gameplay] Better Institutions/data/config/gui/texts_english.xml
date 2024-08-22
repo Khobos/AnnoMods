@@ -291,5 +291,13 @@
       <GUID>2143505376</GUID>
       <Text>More suitable for certain mines.</Text>
     </Text>
+    <Text>
+      <GUID>2143505378</GUID>
+      <Text>Responds to fires within range. Provides additionnal services for your farms.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505379</GUID>
+      <Text>To build near farms.</Text>
+    </Text>
   </ModOp>
 </ModOps>
