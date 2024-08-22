@@ -1239,7 +1239,7 @@
     </ModOp>
     <!-- End Construction Category-->
     
-    <!-- TownhallBuff -->
+    <!-- Townhall/Guildhouse Buffs -->
     <ModOp GUID="135111" Type="addNextSibling">
         <Asset>
             <Template>TownhallBuff</Template>
@@ -1507,6 +1507,7 @@
             </Values>
         </Asset>
     </ModOp>
+    <!-- End Townhall/Guildhouse Buffs -->
 
     <!-- Fake Product -->
     <ModOp GUID="917" Type="addNextSibling">
