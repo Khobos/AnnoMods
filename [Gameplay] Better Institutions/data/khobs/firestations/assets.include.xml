@@ -7,7 +7,7 @@
         <Standard>
           <GUID>2143505316</GUID>
           <Name>Volunteer Fire Department</Name>
-          <IconFilename>data/ui/city_institution/icon_volunteer_brigade.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
         <Building>
@@ -142,7 +142,7 @@
         <Standard>
           <GUID>2143505317</GUID>
           <Name>Municipal Fire Station</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_farm_fire_brigade.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
         <Building>
@@ -1134,7 +1134,7 @@
                 <Standard>
                 <GUID>2143505326</GUID>
                 <Name>Park Ranger Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_park_ranger_effect.png</IconFilename>
+                <IconFilename>data\ui\city_institution\icon_park_ranger.png</IconFilename>
                 <InfoDescription>2143505327</InfoDescription>
                 </Standard>
                 <ItemEffect>
