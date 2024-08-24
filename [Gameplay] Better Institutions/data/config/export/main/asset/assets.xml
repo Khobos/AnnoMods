@@ -155,25 +155,7 @@ TRIGGER REGION
       </Asset>
       
       
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505308</GUID>
-            <Name>Hospital Emergency Basic InfoDescription</Name>
-          </Standard>
-        </Values>
-      </Asset>
       
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505311</GUID>
-            <Name>Hospital Public/Emergency Basic InfoDescription</Name>
-          </Standard>
-        </Values>
-      </Asset>
       
       <Asset>
         <Template>Text</Template>
@@ -186,39 +168,6 @@ TRIGGER REGION
       </Asset>
 
       
-
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505360</GUID>
-            <Name>Almshouse Effect InfoDescription</Name>
-          </Standard>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505362</GUID>
-            <Name>Health Faculty Effect InfoDescription</Name>
-          </Standard>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-          </Standard>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-          </Standard>
-        </Values>
-      </Asset>
       <Asset>
         <Template>Text</Template>
         <Values>
