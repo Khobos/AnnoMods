@@ -165,7 +165,7 @@
           <Standard>
             <GUID>2143505358</GUID>
             <Name>Health Faculty</Name>
-            <IconFilename>data/ui/city_institution/icon_health_faculty.png</IconFilename>
+            <IconFilename>data/ui/city_institution/icon_healthfaculty.png</IconFilename>
             <InfoDescription>2143505311</InfoDescription>
           </Standard>
           <Building>
@@ -206,19 +206,20 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/modgraphics/buildings/public/healthfaculty/healthfaculty.cfg</Filename>
+                <Filename>data/modgraphics/buildings/public/institution_03_healthfaculty/institution_03_healthfaculty.cfg</Filename>
               </Item>
             </Variations>
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>CityInstitution</GUIType>
+            <GUIType>Production</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
                 <ActionList />
               </Values>
             </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
           </Selection>
           <Constructable>
             <DestructionCategory>Production</DestructionCategory>
@@ -246,36 +247,22 @@
           <FeedbackController />
           <Infolayer />
           <UpgradeList />
-          <IncidentResolver>
-            <ResolverUnit>100583</ResolverUnit>
-            <ResolverUnitCount>3</ResolverUnitCount>
-            <SpecialUnit>100583</SpecialUnit>          
-            <SpecialUnitThresholds>
-              <Item>
-                <UnitAmount>0</UnitAmount>
-                <HappinessThreshold>0</HappinessThreshold>
-              </Item>
-            </SpecialUnitThresholds>
-            <ResolvableIncidents>Illness</ResolvableIncidents>
-            <DuringConstructionText>15224</DuringConstructionText>
-            <DuringIncidentHeadline>3781</DuringIncidentHeadline>
-            <ActionButtonText>3690</ActionButtonText>
-            <DuringIncidentHeadlineIcon>501922</DuringIncidentHeadlineIcon>
-          </IncidentResolver>
           <BuffFactory>
+            <BaseBuff>2143505361</BaseBuff>
+            <BaseBuffScope>Radius</BaseBuffScope>
+            <BaseBuffDistance>20</BaseBuffDistance>
             <ProductionBuffs>
                 <Item>
-                    <ProductivityBuff>2143505361</ProductivityBuff>
+                    <ProductivityBuff>2143505368</ProductivityBuff>
                 </Item>
             </ProductionBuffs>
-            <ProductionBuffScope>Radius</ProductionBuffScope>
-            <ProductionBuffDistance>20</ProductionBuffDistance>
+            <ProductionBuffScope>Session</ProductionBuffScope>
           </BuffFactory>
           <FactoryBase>
             <FactoryInputs>
                 <Item>
                     <Product>2143505363</Product>
-                    <StorageAmount>1</StorageAmount>
+                    <StorageAmount>4</StorageAmount>
                 </Item>
             </FactoryInputs>
             <CycleTime>120</CycleTime>
@@ -285,8 +272,13 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>2000</Amount>
+                <Amount>2500</Amount>
                 <InactiveAmount>1000</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -296,15 +288,6 @@
             <SelfHealPerHealTick>4</SelfHealPerHealTick>
           </Attackable>
           <Pausable />
-          <IncidentInfluencer>
-            <Influence>
-              <Illness>
-                <Influence>-7</Influence>
-                <Distance>20</Distance>
-              </Illness>
-            </Influence>
-          </IncidentInfluencer>
-          <DelayedConstruction />
           <PublicService>
             <FunctionDescription>100364</FunctionDescription>
             <FullSatisfactionDistance>45</FullSatisfactionDistance>
@@ -320,6 +303,9 @@
           </AmbientMoodProvider>
           <Culture />
           <QuestObject />
+          <Pausable>
+              <CanPauseManually>1</CanPauseManually>
+          </Pausable>
         </Values>
       </Asset>
     </ModOp>
