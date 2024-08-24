@@ -241,11 +241,11 @@
     </Text>
     <Text>
       <GUID>2143505361</GUID>
-      <Text>Medical breakthroughs</Text>
+      <Text>Faculty of Health Students</Text>
     </Text>
     <Text>
       <GUID>2143505362</GUID>
-      <Text>Your researchers are making great strides in the field of medicine!</Text>
+      <Text>Students have paid their medical school fees, and medical advances are making clear progress.</Text>
     </Text>
     <Text>
       <GUID>2143505363</GUID>
@@ -262,6 +262,13 @@
     <Text>
       <GUID>2143505367</GUID>
       <Text>Your port officers read loading manifests, inspect ships and take stock of warehouses.</Text>
+    <Text>
+      <GUID>2143505368</GUID>
+      <Text>Trained doctors</Text>
+    </Text>
+    <Text>
+      <GUID>2143505369</GUID>
+      <Text>Your newly-trained doctors are distributed throughout the region's hospitals to improve epidemic management.</Text>
     </Text>
     <Text>
       <GUID>2143505370</GUID>
@@ -302,6 +309,14 @@
     <Text>
       <GUID>2143505379</GUID>
       <Text>Liaison officers visit farms to check fire safety standards and fuels protection.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505380</GUID>
+      <Text>Treating patients</Text>
+    </Text>
+    <Text>
+      <GUID>2143505381</GUID>
+      <Text>The hospital manages routine emergencies and treats patients who come to it.</Text>
     </Text>
     </Text>
   </ModOp>

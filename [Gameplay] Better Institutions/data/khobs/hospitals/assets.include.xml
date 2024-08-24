@@ -157,6 +157,9 @@
           </Culture>
           <QuestObject />
           <Upgradable />
+          <Pausable>
+              <CanPauseManually>1</CanPauseManually>
+          </Pausable>
         </Values>
       </Asset>
       <Asset>
@@ -432,7 +435,7 @@
             <Standard>
               <GUID>2143505361</GUID>
               <Name>Health Faculty Effect</Name>
-              <IconFilename>data/ui/2kimages/main/icons/icon_research_resource.png</IconFilename>
+              <IconFilename>data/ui/city_institution/icon_healthfaculty.png</IconFilename>
               <InfoDescription>2143505362</InfoDescription>
             </Standard>
             <ItemEffect>
@@ -451,11 +454,14 @@
                 <Item>
                   <Product>1010353</Product>
                   <!--university-->
-                  <AdditionalResearch>1</AdditionalResearch>
+                  <AdditionalResearch>15</AdditionalResearch>
                 </Item>
               </InputBenefitModifier>
             </PopulationUpgrade>
-            <ResidenceUpgrade />
+            <ResidenceUpgrade>
+              <WorkforceModifierInPercent>-15</WorkforceModifierInPercent>
+              <TaxModifierInPercent>-30</TaxModifierInPercent>
+            </ResidenceUpgrade>
             <IncidentInfectableUpgrade />
             <CultureUpgrade />
             <InfluenceSourceUpgrade />
@@ -465,6 +471,102 @@
             <FactoryUpgrade />
           </Values>
       </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505368</GUID>
+            <Name>Hospitals Upgrade from Faculty Effect</Name>
+            <IconFilename>data/ui/city_institution/icon_healthfaculty.png</IconFilename>
+            <InfoDescription>2143505369</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>1010464</GUID>            
+              </Item>
+              <Item>
+                <GUID>6355</GUID>            
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text />
+          <BuildingUpgrade>
+            <ResolverUnitCountUpgrade>
+              <Value>1</Value>
+            </ResolverUnitCountUpgrade>
+            <ResolverUnitDecreaseUpgrade>
+              <Value>100</Value>
+              <Percental>1</Percental>
+            </ResolverUnitDecreaseUpgrade>
+            <ResolverUnitMovementSpeedUpgrade>
+              <Value>25</Value>
+              <Percental>1</Percental>
+            </ResolverUnitMovementSpeedUpgrade>
+            <MaintenanceUpgrade>
+              <Value>1000</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+          </BuildingUpgrade>
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade>
+            <ReplaceInputs>
+              <Item>
+                <OldInput>1010240</OldInput>
+                <!--gold-->
+                <NewInput>5397</NewInput>
+                <!--gold ore-->
+              </Item>
+            </ReplaceInputs>
+          </FactoryUpgrade>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505380</GUID>
+            <Name>Hospital Effect</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\city_institution\icon_hospital.png</IconFilename>
+            <InfoDescription>2143505381</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>1010464</GUID>            
+              </Item>
+            </EffectTargets>
+            <AllowStacking>0</AllowStacking>
+          </ItemEffect>
+          <Text />
+          <BuildingUpgrade>
+            <ResolverUnitDecreaseUpgrade>
+              <Value>5</Value>
+              <Percental>1</Percental>
+            </ResolverUnitDecreaseUpgrade>
+          </BuildingUpgrade>
+          <Buff />
+          <PopulationUpgrade />
+          <ResidenceUpgrade />
+          <IncidentInfectableUpgrade />
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
 
     <!-- Texts -->
     <ModOp GUID="3789" Type="addNextSibling">
