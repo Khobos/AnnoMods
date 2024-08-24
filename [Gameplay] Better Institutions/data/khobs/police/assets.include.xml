@@ -964,6 +964,92 @@
       </Asset>
     </ModOp>
 
+    <!-- Texts -->
+    <ModOp GUID="3788" Type="addNextSibling">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505307</GUID>
+            <Name>Police Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505310</GUID>
+            <Name>Police Public/Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505314</GUID>
+            <Name>Police Public/Emergency Special Police InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505339</GUID>
+            <Name>SkinName (Sheriff Office)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505340</GUID>
+            <Name>Sheriff Office SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505336</GUID>
+            <Name>SkinName (Black Roof Sheriff Office)</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505337</GUID>
+            <Name>Black Roof Sheriff Office SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505346</GUID>
+            <Name>Prison Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505348</GUID>
+            <Name>Police Academy Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Texts -->
+
     <!-- Fake Product -->
     <ModOp GUID="917" Type="addNextSibling">
       <Asset>
