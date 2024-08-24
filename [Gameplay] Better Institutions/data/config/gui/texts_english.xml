@@ -67,7 +67,7 @@
     </Text>
     <Text>
       <GUID>2143505317</GUID>
-      <Text>Municipal Fire Station</Text>
+      <Text>Farm Fire Station</Text>
     </Text>
     <Text>
       <GUID>2143505318</GUID>
@@ -292,12 +292,17 @@
       <Text>More suitable for certain mines.</Text>
     </Text>
     <Text>
-      <GUID>2143505378</GUID>
+      <GUID>2143505377</GUID>
       <Text>Responds to fires within range. Provides additionnal services for your farms.</Text>
     </Text>
     <Text>
+      <GUID>2143505378</GUID>
+      <Text>Farm Fire Safety</Text>
+    </Text>
+    <Text>
       <GUID>2143505379</GUID>
-      <Text>To build near farms.</Text>
+      <Text>Liaison officers visit farms to check fire safety standards and fuels protection.</Text>
+    </Text>
     </Text>
   </ModOp>
 </ModOps>

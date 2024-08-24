@@ -240,12 +240,12 @@
           <TransporterCountMax>0</TransporterCountMax>
         </LogisticNode>
         <IncidentResolver>
-          <ResolverUnit>100579</ResolverUnit>
-          <ResolverUnitCount>2</ResolverUnitCount>
+          <ResolverUnit>100580</ResolverUnit>
+          <ResolverUnitCount>1</ResolverUnitCount>
           <SpecialUnit>100580</SpecialUnit>
           <SpecialUnitThresholds>
             <Item>
-              <UnitAmount>1</UnitAmount>
+              <UnitAmount>0</UnitAmount>
               <HappinessThreshold>0</HappinessThreshold>
             </Item>
           </SpecialUnitThresholds>
@@ -259,8 +259,8 @@
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>375</Amount>
-              <InactiveAmount>175</InactiveAmount>
+              <Amount>175</Amount>
+              <InactiveAmount>100</InactiveAmount>
             </Item>
             <Item>
               <Product>1010052</Product>
@@ -1550,15 +1550,10 @@
                     </EffectTargets>
                     <AllowStacking>0</AllowStacking>
                 </ItemEffect>
-                <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value>10</Value>
-                        <Percental>1</Percental>
-                    </ProductivityUpgrade>
-                </FactoryUpgrade>
+                <FactoryUpgrade />
                 <BuildingUpgrade>
                   <MaintenanceUpgrade>
-                    <Value>15</Value>
+                    <Value>20</Value>
                     <Percental>1</Percental>
                   </MaintenanceUpgrade>
                   <WorkforceAmountUpgrade>
@@ -1571,11 +1566,7 @@
                 <ModuleOwnerUpgrade>
                   <ModuleLimitPercent>-5</ModuleLimitPercent>
                 </ModuleOwnerUpgrade>
-                <IncidentInfectableUpgrade>
-                    <IncidentFireIncreaseUpgrade>
-                        <Value>-2</Value>
-                    </IncidentFireIncreaseUpgrade>
-                </IncidentInfectableUpgrade>
+                <IncidentInfectableUpgrade />
                 <PowerplantUpgrade/>
                 <IndustrializableUpgrade/>
                 <ItemContainerUpgrade/>
