@@ -270,18 +270,20 @@
     <!-- End Buildings -->
     
     <!-- Categories -->
-    <!-- Old World -->   
-    <ModOp GUID="500506,269756" Type="add" Path="/Values/ProductionChain/Tier1">
-        <Item>
-            <Building>2143505006</Building>
-        </Item>
-    </ModOp>
-    <!-- New World -->    
-    <ModOp GUID="500916,269835,7305" Type="add" Path="/Values/ProductionChain/Tier1">
-       <Item>
-            <Building>2143505007</Building>
-       </Item>
-    </ModOp>
+    <Group>
+        <!-- Old World -->   
+        <ModOp GUID="500506,269756" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>2143505006</Building>
+            </Item>
+        </ModOp>
+        <!-- New World -->    
+        <ModOp GUID="500916,269835,7305" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>2143505007</Building>
+            </Item>
+        </ModOp>
+    </Group>
     <!-- End Categories -->
 
     <!-- Texts -->
