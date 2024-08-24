@@ -129,6 +129,7 @@ TRIGGER REGION
   <Include File="../../../../khobs/firestations/assets.include.xml" />
   <Include File="../../../../khobs/police/assets.include.xml" />
   <Include File="../../../../khobs/hospitals/assets.include.xml" />
+  <!-- <Include File="../../../../khobs/harbor/assets.include.xml" /> -->
   <Include File="../../../../khobs/triggers/assets.include.xml" />
   
   <!-- Texts Assets -->

@@ -285,9 +285,6 @@
                           <Item>
                             <Asset>2143505357</Asset>
                           </Item>
-                          <Item>
-                            <Asset>2143505365</Asset>
-                          </Item>
                         </UnhideAssets>
                         <UnlockAssets />
                       </ActionUnlockAsset>
@@ -329,9 +326,6 @@
                         <UnlockAssets>
                           <Item>
                             <Asset>2143505357</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505365</Asset>
                           </Item>
                         </UnlockAssets>
                         <UnhideAssets />
