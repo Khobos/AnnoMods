@@ -262,6 +262,7 @@
     <Text>
       <GUID>2143505367</GUID>
       <Text>Your port officers read loading manifests, inspect ships and take stock of warehouses.</Text>
+    </Text>
     <Text>
       <GUID>2143505368</GUID>
       <Text>Trained doctors</Text>
@@ -317,7 +318,6 @@
     <Text>
       <GUID>2143505381</GUID>
       <Text>The hospital manages routine emergencies and treats patients who come to it.</Text>
-    </Text>
     </Text>
   </ModOp>
 </ModOps>
