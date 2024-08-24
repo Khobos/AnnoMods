@@ -1,6 +1,6 @@
 <ModOps>
     <!-- Buildings -->
-    <ModOp GUID="101329" Type="addNextSibling">        
+    <ModOp GUID="101329" Type="addNextSibling">
         <Asset>
             <Template>WarehouseStrategic</Template>
             <Values>
@@ -11,7 +11,7 @@
                     <InfoDescription>2143505012</InfoDescription>
                 </Standard>
                 <Blocking>
-                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles><!-- building rails (dummyblocker)-->
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles><!-- building rails (dummyblocker) -->
                 </Blocking>
                 <Building>
                     <BuildingCategoryName>11151</BuildingCategoryName>
@@ -21,27 +21,27 @@
                 <Cost>
                     <Costs>
                         <Item>
-                            <Ingredient>1010017</Ingredient><!--Money-->
+                            <Ingredient>1010017</Ingredient><!-- Money -->
                             <Amount>40000</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010196</Ingredient><!--timber-->
+                            <Ingredient>1010196</Ingredient><!-- timber -->
                             <Amount>140</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010205</Ingredient><!--bricks-->
+                            <Ingredient>1010205</Ingredient><!-- bricks -->
                             <Amount>105</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010218</Ingredient><!--beams-->
+                            <Ingredient>1010218</Ingredient><!-- beams -->
                             <Amount>80</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010207</Ingredient><!--window-->
+                            <Ingredient>1010207</Ingredient><!-- window -->
                             <Amount>45</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010202</Ingredient><!--concrete-->
+                            <Ingredient>1010202</Ingredient><!-- concrete -->
                             <Amount>45</Amount>
                         </Item>
                     </Costs>
@@ -51,14 +51,15 @@
                     <OnSelection>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList/>
+                            <ActionList />
                         </Values>
                     </OnSelection>
                 </Selection>
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/modgraphics/buildings/special/logistic_oil_moderate/logistic_oil_moderate.cfg</Filename>
+                            <Filename>
+                                data/modgraphics/buildings/special/logistic_oil_moderate/logistic_oil_moderate.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
@@ -67,8 +68,8 @@
                         <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
                     </Skins>
                 </Object>
-                <Constructable/>
-                <Mesh/>
+                <Constructable />
+                <Mesh />
                 <SoundEmitter>
                     <ActiveSounds>
                         <Item>
@@ -96,16 +97,16 @@
                         </Item>
                     </BuildingRepaired>
                 </SoundEmitter>
-                <Locked/>
-                <Infolayer/>
-                <FeedbackController/>
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
                 <Warehouse>
                     <WarehouseStorage>
                         <StorageMax>250</StorageMax>
                     </WarehouseStorage>
                 </Warehouse>
-                <LogisticNode/>
-                <MinimapToken/>
+                <LogisticNode />
+                <MinimapToken />
                 <AmbientMoodProvider>
                     <AmbientMood>ResidenceTier1</AmbientMood>
                 </AmbientMoodProvider>
@@ -117,19 +118,19 @@
                 <Maintenance>
                     <Maintenances>
                         <Item>
-                            <Product>1010017</Product><!--Money-->
+                            <Product>1010017</Product><!-- Money -->
                             <Amount>1000</Amount>
                             <InactiveAmount>500</InactiveAmount>
                         </Item>
                     </Maintenances>
                 </Maintenance>
-                <Pausable/>
+                <Pausable />
                 <BuildingUnique />
-                <UpgradeList/>
+                <UpgradeList />
                 <TrainStation>
                     <MaxTrainCount>5</MaxTrainCount>
                 </TrainStation>
-                <QuestObject/>
+                <QuestObject />
             </Values>
         </Asset>
         <Asset>
@@ -142,7 +143,7 @@
                     <InfoDescription>2143505012</InfoDescription>
                 </Standard>
                 <Blocking>
-                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles><!--building rails (dummyblocker)-->
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles><!-- building rails (dummyblocker) -->
                 </Blocking>
                 <Building>
                     <BuildingCategoryName>11151</BuildingCategoryName>
@@ -152,27 +153,27 @@
                 <Cost>
                     <Costs>
                         <Item>
-                            <Ingredient>1010017</Ingredient><!--Money-->
+                            <Ingredient>1010017</Ingredient><!-- Money -->
                             <Amount>40000</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010196</Ingredient><!--timber-->
+                            <Ingredient>1010196</Ingredient><!-- timber -->
                             <Amount>140</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010205</Ingredient><!--bricks-->
+                            <Ingredient>1010205</Ingredient><!-- bricks -->
                             <Amount>105</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010218</Ingredient><!--beams-->
+                            <Ingredient>1010218</Ingredient><!-- beams -->
                             <Amount>80</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010207</Ingredient><!--window-->
+                            <Ingredient>1010207</Ingredient><!-- window -->
                             <Amount>45</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010202</Ingredient><!--concrete-->
+                            <Ingredient>1010202</Ingredient><!-- concrete -->
                             <Amount>45</Amount>
                         </Item>
                     </Costs>
@@ -182,14 +183,15 @@
                     <OnSelection>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList/>
+                            <ActionList />
                         </Values>
                     </OnSelection>
                 </Selection>
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/modgraphics/buildings/special/logistic_oil_colony01/logistic_oil_colony01.cfg</Filename>
+                            <Filename>
+                                data/modgraphics/buildings/special/logistic_oil_colony01/logistic_oil_colony01.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
@@ -201,8 +203,8 @@
                 <Text>
                     <TextOverride>2143505006</TextOverride>
                 </Text>
-                <Constructable/>
-                <Mesh/>
+                <Constructable />
+                <Mesh />
                 <SoundEmitter>
                     <ActiveSounds>
                         <Item>
@@ -230,16 +232,16 @@
                         </Item>
                     </BuildingRepaired>
                 </SoundEmitter>
-                <Locked/>
-                <Infolayer/>
-                <FeedbackController/>
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
                 <Warehouse>
                     <WarehouseStorage>
                         <StorageMax>250</StorageMax>
                     </WarehouseStorage>
                 </Warehouse>
-                <LogisticNode/>
-                <MinimapToken/>
+                <LogisticNode />
+                <MinimapToken />
                 <AmbientMoodProvider>
                     <AmbientMood>ResidenceTier1</AmbientMood>
                 </AmbientMoodProvider>
@@ -251,33 +253,33 @@
                 <Maintenance>
                     <Maintenances>
                         <Item>
-                            <Product>1010017</Product><!--Money-->
+                            <Product>1010017</Product><!-- Money -->
                             <Amount>1000</Amount>
                             <InactiveAmount>500</InactiveAmount>
                         </Item>
                     </Maintenances>
                 </Maintenance>
-                <Pausable/>
+                <Pausable />
                 <BuildingUnique />
-                <UpgradeList/>
+                <UpgradeList />
                 <TrainStation>
                     <MaxTrainCount>5</MaxTrainCount>
                 </TrainStation>
-                <QuestObject/>
+                <QuestObject />
             </Values>
         </Asset>
     </ModOp>
     <!-- End Buildings -->
-    
+
     <!-- Categories -->
     <Group>
-        <!-- Old World -->   
+        <!-- Old World -->
         <ModOp GUID="500506,269756" Type="add" Path="/Values/ProductionChain/Tier1">
             <Item>
                 <Building>2143505006</Building>
             </Item>
         </ModOp>
-        <!-- New World -->    
+        <!-- New World -->
         <ModOp GUID="500916,269835,7305" Type="add" Path="/Values/ProductionChain/Tier1">
             <Item>
                 <Building>2143505007</Building>
@@ -295,20 +297,11 @@
                     <GUID>2143505012</GUID>
                     <Name>Oil Harbor InfoDescription</Name>
                 </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Provides trains for transportation and allows storing and trading of oil.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>14485</LineID>
-                </Text>
             </Values>
         </Asset>
     </ModOp>
     <!-- End Texts -->
-     
+
     <!-- Triggers -->
     <ModOp GUID="130248" Type="addNextSibling">
         <Asset>
@@ -322,10 +315,10 @@
                     <TriggerCondition>
                         <Template>ConditionPlayerCounter</Template>
                         <Values>
-                            <Condition/>
+                            <Condition />
                             <ConditionPlayerCounter>
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context><!--Moderate Population 4-->
+                                <Context>15000003</Context><!-- Moderate Population 4 -->
                                 <CounterAmount>1</CounterAmount>
                             </ConditionPlayerCounter>
                         </Values>
@@ -335,7 +328,7 @@
                             <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
-                                    <Action/>
+                                    <Action />
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
                                             <Item>
@@ -350,11 +343,11 @@
                     <ResetTrigger>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <EmptyAutoCreateValue/>
+                            <EmptyAutoCreateValue />
                         </Values>
                     </ResetTrigger>
                 </Trigger>
-                <TriggerSetup/>
+                <TriggerSetup />
             </Values>
         </Asset>
         <Asset>
@@ -368,10 +361,10 @@
                     <TriggerCondition>
                         <Template>ConditionPlayerCounter</Template>
                         <Values>
-                            <Condition/>
+                            <Condition />
                             <ConditionPlayerCounter>
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context><!--Colony01 Population 2-->
+                                <Context>15000006</Context><!-- Colony01 Population 2 -->
                                 <CounterAmount>300</CounterAmount>
                             </ConditionPlayerCounter>
                         </Values>
@@ -381,7 +374,7 @@
                             <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
-                                    <Action/>
+                                    <Action />
                                     <ActionUnlockAsset>
                                         <UnhideAssets>
                                             <Item>
@@ -396,11 +389,11 @@
                     <ResetTrigger>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <EmptyAutoCreateValue/>
+                            <EmptyAutoCreateValue />
                         </Values>
                     </ResetTrigger>
                 </Trigger>
-                <TriggerSetup/>
+                <TriggerSetup />
             </Values>
         </Asset>
         <Asset>
@@ -414,10 +407,10 @@
                     <TriggerCondition>
                         <Template>ConditionPlayerCounter</Template>
                         <Values>
-                            <Condition/>
+                            <Condition />
                             <ConditionPlayerCounter>
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context><!--Colony01 Population 2-->
+                                <Context>15000006</Context><!-- Colony01 Population 2 -->
                                 <CounterAmount>600</CounterAmount>
                             </ConditionPlayerCounter>
                         </Values>
@@ -427,7 +420,7 @@
                             <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
-                                    <Action/>
+                                    <Action />
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
                                             <Item>
@@ -442,11 +435,11 @@
                     <ResetTrigger>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <EmptyAutoCreateValue/>
+                            <EmptyAutoCreateValue />
                         </Values>
                     </ResetTrigger>
                 </Trigger>
-                <TriggerSetup/>
+                <TriggerSetup />
             </Values>
         </Asset>
         <Asset>
@@ -459,9 +452,9 @@
                 <Trigger>
                     <TriggerCondition>
                         <Values>
-                            <ConditionPropsNegatable/>
-                            <Condition/>
-                            <ConditionIsCreativeMode/>
+                            <ConditionPropsNegatable />
+                            <Condition />
+                            <ConditionIsCreativeMode />
                         </Values>
                         <Template>ConditionIsCreativeMode</Template>
                     </TriggerCondition>
@@ -470,7 +463,7 @@
                             <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
-                                    <Action/>
+                                    <Action />
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
                                             <Item>
@@ -487,7 +480,7 @@
                         </Item>
                     </TriggerActions>
                 </Trigger>
-                <TriggerSetup/>
+                <TriggerSetup />
             </Values>
         </Asset>
     </ModOp>
