@@ -1588,6 +1588,138 @@
     </ModOp>
     <!-- End Townhall/Guildhouse Buffs -->
 
+    <!-- Texts -->
+    <ModOp GUID="118032" Type="addNextSibling">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505306</GUID>
+            <Name>Fire Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505309</GUID>
+            <Name>Fire Public/Emergency Basic InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505312</GUID>
+            <Name>Fire Public/Emergency Special Parks InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505313</GUID>
+            <Name>Fire Public/Emergency Special Industry InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505323</GUID>
+            <Name>Metropolitan Fire Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505325</GUID>
+            <Name>Main Fire Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505327</GUID>
+            <Name>Park Rangers Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505329</GUID>
+            <Name>Industrial Fire Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505371</GUID>
+            <Name>Mine Rescue Station InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505373</GUID>
+            <Name>Mine Rescue Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505375</GUID>
+            <Name>Mine Rescue Station SkinName</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505376</GUID>
+            <Name>Mine Rescue Station SkinDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505377</GUID>
+            <Name>Farm Emergency Station InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505379</GUID>
+            <Name>Farm Emergency Station Effect InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- End Texts -->
+
+
     <!-- Fake Product -->
     <ModOp GUID="917" Type="addNextSibling">
       <Asset>
