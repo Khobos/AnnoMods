@@ -38,6 +38,9 @@
 
             <!-- Remove additionnal unit -->
             <ModOp GUID="190410,190723,193669" Type="remove" Path="/Values/BuildingUpgrade/ResolverUnitCountUpgrade/" />
+            
+            <!-- Remove illness risk -->
+            <ModOp GUID="193656,190724,190679,190193" Type="remove" Path="/Values/IncidentInfectableUpgrade/" />
 
             <!-- Add University Product ResearchValue base for Engineer Population -->
             <ModOp GUID="15000003" Type="add" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']/">
