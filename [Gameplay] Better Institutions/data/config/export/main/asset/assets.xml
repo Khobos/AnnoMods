@@ -53,7 +53,7 @@ TEXT REGION
 2143505329 - Industrial Fire Station Effect InfoDescription - Text
 2143505371 - Mine Emergency Station InfoDescription - Text
 2143505373 - Mine Emergency Station Effect InfoDescription - Text
-2143505378 - Farm Emergency Station InfoDescription - Text
+2143505377 - Farm Emergency Station InfoDescription - Text
 2143505379 - Farm Emergency Station Effect InfoDescription - Text
 
 2143505336 - Black Roof Sheriff Office SkinName - Text
@@ -84,7 +84,7 @@ BUFF REGION
 2143505324 - Park Ranger Effect - GuildhouseBuff
 2143505325 - Industrial Firestation Effect - GuildhouseBuff
 2143505372 - Mine Emergency Station - GuildhouseBuff
-2143505377 - Farm Emergency Station - GuildhouseBuff
+2143505378 - Farm Emergency Station - GuildhouseBuff
 
 2143505345 - Prison Effect - TownhallBuff
 2143505347 - Police Academy Effect - TownhallBuff
