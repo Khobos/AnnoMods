@@ -2,6 +2,13 @@
 <ModOps>
     <!-- Main Group for condition -->
     <Group>
+        <!-- Fire related -->
+        <Group>
+            <ModOp GUID="1010463" Type="replace" Path="/Values/Standard/IconFilename">
+                <IconFilename>data/ui/city_institution/icon_fire_brigade_1.png</IconFilename>
+            </ModOp>
+        </Group>
+
         <!-- Hospitals related -->
         <Group>
             <!-- Edit Vanilla Hospital to add product. With the Faculty, alternative product will be used. -->

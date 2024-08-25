@@ -146,6 +146,7 @@
           <InfoDescription>2143505377</InfoDescription>
         </Standard>
         <Building>
+          <BuildingCategoryName>2143505301</BuildingCategoryName>
           <BuildingType>Factory</BuildingType>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
@@ -304,6 +305,7 @@
           <InfoDescription>2143505371</InfoDescription>
         </Standard>
         <Building>
+          <BuildingCategoryName>2143505301</BuildingCategoryName>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Moderate</AssociatedRegions>
         </Building>
@@ -470,8 +472,8 @@
       <Values>
         <Standard>
           <GUID>2143505318</GUID>
-          <Name>City Fire Department</Name>
-          <IconFilename>data/ui/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
+          <Name>Metropolitan Fire Department</Name>
+          <IconFilename>data/ui/city_institution/icon_fire_brigade_2.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
         <Building>
@@ -1204,6 +1206,7 @@
                   <Building>6354</Building>
                 </Item>
               </BuildingList>
+              <CategoryDescription>2143505301</CategoryDescription>
             </ConstructionCategory>
             <Locked />
           </Values>
