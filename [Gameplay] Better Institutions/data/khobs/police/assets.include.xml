@@ -272,16 +272,17 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>CityInstitutionBuilding</Template>
+        <Template>BuffFactory</Template>
         <Values>
           <Standard>
             <GUID>2143505342</GUID>
-            <Name>Municipal Prison</Name>
-            <IconFilename>data/ui/city_institution/icon_municipal_prison.png</IconFilename>
-            <InfoDescription>2143505310</InfoDescription>
+            <Name>Prison</Name>
+            <IconFilename>data/ui/city_institution/icon_prison.png</IconFilename>
+            <InfoDescription>11144</InfoDescription>
           </Standard>
           <Building>
             <BuildingType>Factory</BuildingType>
+            <BuildingCategoryName>100003</BuildingCategoryName>
             <BuildModeRandomRotation>180</BuildModeRandomRotation>
             <AssociatedRegions>Moderate</AssociatedRegions>
           </Building>
@@ -290,23 +291,22 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>15000</Amount>
+                <Amount>5000</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
-                <Amount>30</Amount>
+                <Amount>10</Amount>
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>50</Amount>
+                <Amount>15</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
-                <Amount>40</Amount>
+                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010207</Ingredient>
-                <Amount>40</Amount>
               </Item>
               <Item>
                 <Ingredient>1010202</Ingredient>
@@ -322,13 +322,14 @@
           </Object>
           <Mesh />
           <Selection>
-            <GUIType>CityInstitution</GUIType>
+            <GUIType>Production</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
                 <ActionList />
               </Values>
             </OnSelection>
+            <ParticipantMessageArcheType>Mercier_DeserterWorker</ParticipantMessageArcheType>
           </Selection>
           <Constructable />
           <Locked />
@@ -370,7 +371,7 @@
           <FeedbackController />
           <Infolayer />
           <UpgradeList />
-          <DelayedConstruction />
+          <!-- <DelayedConstruction />
           <IncidentResolver>
             <ResolverUnit>100581</ResolverUnit>
             <SpecialUnitThresholds>
@@ -384,12 +385,12 @@
             <DuringIncidentHeadline>3780</DuringIncidentHeadline>
             <ActionButtonText>3690</ActionButtonText>
             <DuringIncidentHeadlineIcon>500322</DuringIncidentHeadlineIcon>
-          </IncidentResolver>
+          </IncidentResolver> -->
           <IncidentInfluencer>
             <Influence>
               <Riot>
-                <Influence>15</Influence>
-                <Distance>15</Distance>
+                <Influence>10</Influence>
+                <Distance>7</Distance>
               </Riot>
             </Influence>
           </IncidentInfluencer>
@@ -406,12 +407,19 @@
           <FactoryBase>
             <FactoryInputs>
               <Item>
+                <Product>1010200</Product>
+                <StorageAmount>5</StorageAmount>
+                <Amount>3</Amount>
+              </Item>
+              <Item>
                 <Product>1010195</Product>
                 <StorageAmount>5</StorageAmount>
+                <Amount>3</Amount>
               </Item>
               <Item>
                 <Product>1010203</Product>
-                <StorageAmount>5</StorageAmount>
+                <StorageAmount>3</StorageAmount>
+                <Amount>2</Amount>
               </Item>
             </FactoryInputs>
             <CycleTime>30</CycleTime>
@@ -421,19 +429,28 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>400</Amount>
-                <InactiveAmount>200</InactiveAmount>
+                <Amount>1250</Amount>
+                <InactiveAmount>750</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010115</Product>
-                <Amount>150</Amount>
+                <Amount>100</Amount>
+                <InactiveAmount>50</InactiveAmount>
               </Item>
             </Maintenances>
           </Maintenance>
           <Attackable />
           <Pausable />
-          <IncidentInfectable />
-          <Culture />
+          <IncidentInfectableUpgrade>
+            <IncidentRiotIncreaseUpgrade>
+              <Value>10</Value>
+              <Distance>3</Distance>
+            </IncidentRiotIncreaseUpgrade>
+          </IncidentInfectableUpgrade>
+          <Culture>
+            <Attractiveness>-20</Attractiveness>
+            <CultureType>Military</CultureType>
+          </Culture>
         </Values>
       </Asset>
       <Asset>
@@ -889,12 +906,30 @@
             <AdditionalHappiness>5</AdditionalHappiness>
             <TaxModifierInPercent>-15</TaxModifierInPercent>
             <WorkforceModifierInPercent>-15</WorkforceModifierInPercent>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-15</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010214</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
-          <IncidentInfectableUpgrade>
-            <IncidentRiotIncreaseUpgrade>
-              <Value>-4</Value>
-            </IncidentRiotIncreaseUpgrade>
-          </IncidentInfectableUpgrade>
+          <IncidentInfectableUpgrade />
           <CultureUpgrade />
           <InfluenceSourceUpgrade />
           <WarehouseUpgrade />
