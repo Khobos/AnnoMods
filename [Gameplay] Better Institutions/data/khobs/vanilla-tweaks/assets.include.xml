@@ -7,7 +7,7 @@
             <!-- Add Smaller vanilla Fire Station variant -->
             <ModOp GUID="1010463" Type="add" Path="/Values/Object/Variations">
                 <Item>
-                    <Filename>data/modgraphics/buildings/public/firestation_01/firestation_01.cfg</Filename>
+                    <Filename>data/modgraphics/buildings/public/small_firestation/small_firestation.cfg</Filename>
                 </Item>
             </ModOp>
             <ModOp GUID="1010463" Type="add" Path="/Values/Building">
