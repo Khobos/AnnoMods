@@ -346,29 +346,10 @@
       </Asset>
     </ModOp>  
 
-    <!-- ADD To City Category -->
-    <ModOp GUID="25000190,500092" Type="replace" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010464']">
+    <!-- ADD To Category -->
+    <ModOp GUID="500092,25000191" Type="replace" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010464']">
       <Item>
         <Building>2143505305</Building>
-      </Item>
-    </ModOp>
-
-    <!-- ADD To Farmer Category -->
-    <ModOp Type="addPrevSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
-      <Item>
-        <Building>2143505357</Building>
-      </Item>
-    </ModOp>  
-    <!-- ADD To Engineer Category -->
-    <ModOp Type="addNextSibling" GUID='25000192' Path="/Values/ConstructionCategory/BuildingList/Item[Building='2143505344']">
-      <Item>
-        <Building>2143505358</Building>
-      </Item>
-    </ModOp>
-    <!-- ADD To Investor Category -->
-    <ModOp Type="addNextSibling" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building='6353']">
-      <Item>
-        <Building>6355</Building>
       </Item>
     </ModOp>
     <!-- End Construction Category-->

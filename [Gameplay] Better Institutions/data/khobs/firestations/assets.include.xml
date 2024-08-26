@@ -1179,22 +1179,10 @@
             <ConstructionCategory>
               <BuildingList>
                 <Item>
-                  <Building>2143505316</Building>
-                </Item>
-                <Item>
-                  <Building>2143505320</Building>
-                </Item>
-                <Item>
-                  <Building>2143505370</Building>
-                </Item>
-                <Item>
                   <Building>1010463</Building>
                 </Item>
                 <Item>
-                  <Building>2143505317</Building>
-                </Item>
-                <Item>
-                  <Building>2143505321</Building>
+                  <Building>2143505316</Building>
                 </Item>
                 <Item>
                   <Building>2143505318</Building>
@@ -1205,6 +1193,18 @@
                 <Item>
                   <Building>6354</Building>
                 </Item>
+                <Item>
+                  <Building>2143505320</Building>
+                </Item>
+                <Item>
+                  <Building>2143505317</Building>
+                </Item>
+                <Item>
+                  <Building>2143505370</Building>
+                </Item>
+                <Item>
+                  <Building>2143505321</Building>
+                </Item>
               </BuildingList>
               <CategoryDescription>2143505301</CategoryDescription>
             </ConstructionCategory>
@@ -1213,53 +1213,8 @@
         </Asset>
     </ModOp>
 
-    <!-- ADD To Farmer Category -->
-    <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
-      <Item>
-        <Building>2143505316</Building>
-      </Item>
-      <Item>
-        <Building>2143505317</Building>
-      </Item> 
-      <Item>
-        <Building>2143505320</Building>
-      </Item>
-    </ModOp>  
-    <!-- REMOVE To Farmer Category -->
-    <ModOp Type="remove" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']" />
-
-    <!-- ADD To Worker Category -->
-    <ModOp Type="addNextSibling" GUID='25000190' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500024']">
-      <Item>
-        <Building>1010463</Building>
-      </Item>      
-      <Item>
-        <Building>2143505370</Building>
-      </Item> 
-      <Item>
-        <Building>2143505321</Building>
-      </Item> 
-    </ModOp>
-    <!-- ADD To Artisan Category -->
-    <ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500010']">
-      <Item>
-        <Building>2143505318</Building>
-      </Item> 
-    </ModOp>
-    <!-- ADD To Engineer Category -->
-    <ModOp Type="addNextSibling" GUID='25000192' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500017']">
-      <Item>
-        <Building>2143505319</Building>
-      </Item> 
-    </ModOp>
-    <!-- ADD To Investor Category -->
-    <ModOp Type="addNextSibling" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500021']">
-      <Item>
-        <Building>6354</Building>
-      </Item>
-    </ModOp>
-    <!-- ADD To City Category -->
-    <ModOp GUID="500092" Type="replace" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
+    <!-- ADD To Category -->
+    <ModOp GUID="500092,25000189" Type="replace" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
         <Item>
             <Building>2143505303</Building>
         </Item>
