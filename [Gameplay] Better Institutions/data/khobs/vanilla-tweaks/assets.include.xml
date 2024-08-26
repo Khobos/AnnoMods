@@ -4,9 +4,15 @@
     <Group>
         <!-- Fire related -->
         <Group>
-            <ModOp GUID="1010463" Type="replace" Path="/Values/Standard/IconFilename">
-                <IconFilename>data/ui/city_institution/icon_fire_brigade_1.png</IconFilename>
+            <!-- Add Smaller vanilla Fire Station variant -->
+            <ModOp GUID="1010463" Type="add" Path="/Values/Object/Variations">
+                <Item>
+                    <Filename>data/modgraphics/buildings/public/firestation_01/firestation_01.cfg</Filename>
+                </Item>
             </ModOp>
+            <ModOp GUID="1010463" Type="add" Path="/Values/Building">
+                <AllowChangeVariation>1</AllowChangeVariation>
+            </ModOp>           
         </Group>
 
         <!-- Hospitals related -->
