@@ -21,7 +21,7 @@
             <Costs>
               <Item>
                 <Ingredient>1010017</Ingredient>
-                <Amount>1000</Amount>
+                <Amount>500</Amount>
               </Item>
               <Item>
                 <Ingredient>1010196</Ingredient>
@@ -29,7 +29,6 @@
               </Item>
               <Item>
                 <Ingredient>1010205</Ingredient>
-                <Amount>5</Amount>
               </Item>
               <Item>
                 <Ingredient>1010218</Ingredient>
@@ -85,37 +84,14 @@
           </FeedbackController>
           <Infolayer />
           <UpgradeList />
-          <Factory7 />
-          <BuffFactory>
-            <ProductionBuffs>
-              <Item>
-                <ProductivityBuff>2143505359</ProductivityBuff>
-              </Item>
-            </ProductionBuffs>
-            <ProductionBuffScope>Radius</ProductionBuffScope>
-            <ProductionBuffDistance>15</ProductionBuffDistance>
-          </BuffFactory>
-          <FactoryBase>
-            <CycleTime>30</CycleTime>
-            <FactoryInputs>
-              <Item>
-                <Product>1010213</Product>
-                <Amount>1</Amount>
-                <StorageAmount>8</StorageAmount>
-              </Item>
-            </FactoryInputs>
-          </FactoryBase>
-          <LogisticNode>
-            <TransporterCountMax>1</TransporterCountMax>
-          </LogisticNode>
           <DelayedConstruction />
           <IncidentResolver>
             <ResolverUnit>2143505364</ResolverUnit>
             <ResolverUnitCount>1</ResolverUnitCount>
-            <!-- <SpecialUnit>2143505364</SpecialUnit> -->
+            <SpecialUnit>2143505364</SpecialUnit>
             <SpecialUnitThresholds>
               <Item>
-                <UnitAmount>0</UnitAmount>
+                <UnitAmount>1</UnitAmount>
                 <HappinessThreshold>0</HappinessThreshold>
               </Item>
             </SpecialUnitThresholds>
@@ -129,12 +105,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>100</Amount>
-                <InactiveAmount>100</InactiveAmount>
+                <Amount>50</Amount>
+                <InactiveAmount>50</InactiveAmount>
               </Item>
               <Item>
                 <Product>1010052</Product>
-                <Amount>50</Amount>
+                <Amount>25</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -143,8 +119,8 @@
           <IncidentInfluencer>
             <Influence>
               <Illness>
-                <Influence>-7</Influence>
-                <Distance>20</Distance>
+                <Influence>5</Influence>
+                <Distance>5</Distance>
               </Illness>
             </Influence>
           </IncidentInfluencer>
@@ -157,9 +133,7 @@
           </Culture>
           <QuestObject />
           <Upgradable />
-          <Pausable>
-              <CanPauseManually>1</CanPauseManually>
-          </Pausable>
+          <Pausable />
         </Values>
       </Asset>
       <Asset>
@@ -648,9 +622,6 @@
             <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
             <FeedbackUnitClass>140720</FeedbackUnitClass>
           </IncidentResolverUnit>
-          <Text>
-            <TextOverride>100584</TextOverride>
-          </Text>
         </Values>
       </Asset>
     </ModOp>
