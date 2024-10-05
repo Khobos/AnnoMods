@@ -323,5 +323,38 @@
       <GUID>2143505381</GUID>
       <Text>The hospital manages routine emergencies and treats patients who come to it.</Text>
     </Text>
+
+    <Text>
+      <GUID>2143505413</GUID>
+      <Text>Academy</Text>
+    </Text>
+    <Text>
+      <GUID>2143505414</GUID>
+      <Text>Religious School</Text>
+    </Text>
+    <Text>
+      <GUID>2143505412</GUID>
+      <Text>Provides the following public services for your residents:</Text>
+    </Text>
+    <Text>
+      <GUID>2143505415</GUID>
+      <Text>Trade Fair</Text>
+    </Text>
+    <Text>
+      <GUID>2143505416</GUID>
+      <Text>A place that provides your inhabitants with all the necessities of daily life. Provides for your residents:</Text>
+    </Text>
+    <Text>
+      <GUID>2143505418</GUID>
+      <Text>Provides services to your residents.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505420</GUID>
+      <Text>Business School</Text>
+    </Text>
+    <Text>
+      <GUID>2143505422</GUID>
+      <Text>Stock Exchange</Text>
+    </Text>
   </ModOp>
 </ModOps>
