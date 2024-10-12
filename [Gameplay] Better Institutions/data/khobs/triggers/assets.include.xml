@@ -1,565 +1,642 @@
 <ModOps>
-    <ModOp Type="addNextSibling" GUID='130248'>
-        <!-- Unhide 100 Farmer -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505400</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+  <ModOp Type="addNextSibling" GUID='130248'>
+    <!-- Unhide at 100 Farmers -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505400</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000000</Context>
+                <CounterAmount>100</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000000</Context>
-                    <CounterAmount>100</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505316</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnhideAssets>
-                          <Item>
-                            <Asset>2143505316</Asset>
-                          </Item>
-                        </UnhideAssets>
-                        <UnlockAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unlock 150 Farmer -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505401</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unlock at 150 Farmers -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505401</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000000</Context>
+                <CounterAmount>150</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000000</Context>
-                    <CounterAmount>150</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505316</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505316</Asset>
-                          </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unhide 300 workers -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505456</GUID>
-              <Name>intermediate moderate 2.0</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unhide at 300 Workers -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505456</GUID>
+          <Name>intermediate moderate 2.0</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000001</Context>
+                <CounterAmount>300</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000001</Context>
-                    <CounterAmount>300</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505317</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505370</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505334</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505341</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505342</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505382</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnhideAssets>
-                          <Item>
-                            <Asset>2143505317</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505370</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505334</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505341</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505342</Asset>
-                          </Item>
-                        </UnhideAssets>
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-              <ResetTrigger>
-                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unlock at 500 Workers -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505458</GUID>
+          <Name>intermediate moderate 2.3</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000001</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <EmptyAutoCreateValue />
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505317</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505370</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505334</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505341</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505342</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505414</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505415</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </ResetTrigger>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unlock 500 workers -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505458</GUID>
-              <Name>intermediate moderate 2.3</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unhide/Unlock at 1 Artisan -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505457</GUID>
+          <Name>intermediate moderate 2.0</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000001</Context>
-                    <CounterAmount>500</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505318</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505343</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505413</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505317</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505370</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505334</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505341</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505342</Asset>
-                          </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-              <ResetTrigger>
-                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unhide/Unlock at 500 Artisans -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505405</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <EmptyAutoCreateValue />
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505357</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505413</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
                 </Values>
-              </ResetTrigger>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unlock 1 artisan -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505457</GUID>
-              <Name>intermediate moderate 2.0</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unlock at 900 Artisans -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505406</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>900</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000002</Context>
-                    <CounterAmount>1</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505357</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505318</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505343</Asset>
-                          </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-              <ResetTrigger>
-                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unhide at 750 Engineers -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505402</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <EmptyAutoCreateValue />
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505319</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505358</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505344</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505424</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </ResetTrigger>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unhide 500 Artisans -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505405</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unlock at 1500 Engineers -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505403</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000002</Context>
-                    <CounterAmount>500</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505319</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505358</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505344</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnhideAssets>
-                          <Item>
-                            <Asset>2143505357</Asset>
-                          </Item>
-                        </UnhideAssets>
-                        <UnlockAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unlock 900 Artisans -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505406</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unlock at 1 Investor -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505407</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000002</Context>
-                    <CounterAmount>900</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2143505320</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505321</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505422</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505320</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505321</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505357</Asset>
-                          </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unhide 750 Engineer -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505402</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Unlock at 750 Investors -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505408</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000003</Context>
-                    <CounterAmount>750</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets />
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505422</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnhideAssets>
-                          <Item>
-                            <Asset>2143505319</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505358</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505344</Asset>
-                          </Item>
-                        </UnhideAssets>
-                        <UnlockAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unlock 1500 Engineer -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505403</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Creative -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505404</GUID>
+          <Name>Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000003</Context>
-                    <CounterAmount>1500</CounterAmount>
-                  </ConditionPlayerCounter>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2143505316</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505317</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505370</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505319</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505319</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505334</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505341</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505342</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505343</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505344</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505357</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505358</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505413</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505414</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505415</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505420</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505422</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                  </ActionUnlockAsset>
                 </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505319</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505358</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505344</Asset>
-                          </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Unlock 1 Investor -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505407</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
-                <Values>
-                  <Condition />
-                  <ConditionPlayerCounter>
-                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                    <Context>15000004</Context>
-                    <CounterAmount>1</CounterAmount>
-                  </ConditionPlayerCounter>
-                </Values>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnhideAssets>
-                          <Item>
-                            <Asset>2143505320</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505321</Asset>
-                          </Item>
-                        </UnhideAssets>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505320</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505321</Asset>
-                          </Item>
-                        </UnlockAssets>
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-        <!-- Creative -->
-        <Asset>
-          <Template>Trigger</Template>
-          <Values>
-            <Standard>
-              <GUID>2143505404</GUID>
-              <Name>Trigger</Name>
-            </Standard>
-            <Trigger>
-              <TriggerCondition>
-                <Values>
-                  <ConditionPropsNegatable />
-                  <Condition />
-                  <ConditionIsCreativeMode />
-                </Values>
-                <Template>ConditionIsCreativeMode</Template>
-              </TriggerCondition>
-              <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionUnlockAsset</Template>
-                    <Values>
-                      <Action />
-                      <ActionUnlockAsset>
-                        <UnlockAssets>
-                          <Item>
-                            <Asset>2143505316</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505317</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505370</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505319</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505319</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505334</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505341</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505342</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505343</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505365</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505344</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505357</Asset>
-                          </Item>
-                          <Item>
-                            <Asset>2143505358</Asset>
-                          </Item>
-                        </UnlockAssets>
-                        <UnhideAssets />
-                      </ActionUnlockAsset>
-                    </Values>
-                  </TriggerAction>
-                </Item>
-              </TriggerActions>
-            </Trigger>
-            <TriggerSetup />
-          </Values>
-        </Asset>
-      </ModOp>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
 </ModOps>
