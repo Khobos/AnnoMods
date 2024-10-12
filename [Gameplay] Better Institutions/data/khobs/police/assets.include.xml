@@ -7,7 +7,7 @@
           <Standard>
             <GUID>2143505334</GUID>
             <Name>Sheriff Office</Name>
-            <IconFilename>data/ui/city_institution/icon_sheriff.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_sheriff.png</IconFilename>
             <InfoDescription>3788</InfoDescription>
           </Standard>
           <Building>
@@ -277,7 +277,7 @@
           <Standard>
             <GUID>2143505342</GUID>
             <Name>Prison</Name>
-            <IconFilename>data/ui/city_institution/icon_prison.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_prison.png</IconFilename>
             <InfoDescription>11144</InfoDescription>
           </Standard>
           <Building>
@@ -459,7 +459,7 @@
           <Standard>
             <GUID>2143505343</GUID>
             <Name>Metropolitan Police</Name>
-            <IconFilename>data/ui/city_institution/icon_police_intermediate.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_police_intermediate.png</IconFilename>
             <InfoDescription>2143505310</InfoDescription>
           </Standard>
           <Building>
@@ -589,7 +589,7 @@
           <Standard>
             <GUID>2143505344</GUID>
             <Name>Police Academy</Name>
-            <IconFilename>data/ui/city_institution/icon_policeacademy.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_policeacademy.png</IconFilename>
             <InfoDescription>2143505314</InfoDescription>
           </Standard>
           <Building>
@@ -853,7 +853,7 @@
           <Standard>
             <GUID>2143505345</GUID>
             <Name>Prison Effect</Name>
-            <IconFilename>data/ui/city_institution/icon_buff_prison.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_buff_prison.png</IconFilename>
           </Standard>
           <InfoDescription>2143505346</InfoDescription>
           <ItemEffect>

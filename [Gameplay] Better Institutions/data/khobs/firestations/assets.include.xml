@@ -7,7 +7,7 @@
         <Standard>
           <GUID>2143505316</GUID>
           <Name>City Fire Department</Name>
-          <IconFilename>data/ui/city_institution/icon_fire_brigade_1.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_1.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
         <Building>
@@ -142,7 +142,7 @@
         <Standard>
           <GUID>2143505317</GUID>
           <Name>Farm Fire Brigade</Name>
-          <IconFilename>data/ui/city_institution/icon_farm_fire_brigade.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_farm_fire_brigade.png</IconFilename>
           <InfoDescription>2143505377</InfoDescription>
         </Standard>
         <Building>
@@ -301,7 +301,7 @@
         <Standard>
           <GUID>2143505370</GUID>
           <Name>Mine Rescue Station</Name>
-          <IconFilename>data/ui/city_institution/icon_mine_firestation.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_mine_firestation.png</IconFilename>
           <InfoDescription>2143505371</InfoDescription>
         </Standard>
         <Building>
@@ -473,7 +473,7 @@
         <Standard>
           <GUID>2143505318</GUID>
           <Name>Metropolitan Fire Department</Name>
-          <IconFilename>data/ui/city_institution/icon_fire_brigade_2.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_2.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
         <Building>
@@ -634,7 +634,7 @@
         <Standard>
           <GUID>2143505319</GUID>
           <Name>Main Fire Department</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade_advanced.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
           <InfoDescription>2143505309</InfoDescription>
         </Standard>
         <Building>
@@ -814,7 +814,7 @@
         <Standard>
           <GUID>2143505320</GUID>
           <Name>Park Rangers</Name>
-          <IconFilename>data/ui/city_institution/icon_park_ranger.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_park_ranger.png</IconFilename>
           <InfoDescription>2143505312</InfoDescription>
         </Standard>
         <Building>
@@ -981,7 +981,7 @@
         <Standard>
           <GUID>2143505321</GUID>
           <Name>Industrial Fire Station</Name>
-          <IconFilename>data/ui/city_institution/icon_industrial_fire_brigade.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_industrial_fire_brigade.png</IconFilename>
           <InfoDescription>2143505313</InfoDescription>
         </Standard>
         <Building>
@@ -1147,7 +1147,7 @@
           <Standard>
             <GUID>2143505374</GUID>
             <Name>Black Mine Rescue Station</Name>
-            <IconFilename>data/ui/city_institution/icon_mine_firestation.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_mine_firestation.png</IconFilename>
           </Standard>
           <Skin>
             <SkinName>2143505375</SkinName>
@@ -1229,7 +1229,7 @@
                 <Standard>
                 <GUID>2143505322</GUID>
                 <Name>City Firestation Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_firestation_effect.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_2.png</IconFilename>
                 <InfoDescription>2143505323</InfoDescription>
                 </Standard>
                 <ItemEffect>
@@ -1272,7 +1272,7 @@
                 <Standard>
                 <GUID>2143505324</GUID>
                 <Name>Main Firestation Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_firestation_advanced.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
                 <InfoDescription>2143505325</InfoDescription>
                 </Standard>
                 <ItemEffect>
@@ -1322,7 +1322,7 @@
                 <Standard>
                 <GUID>2143505326</GUID>
                 <Name>Park Ranger Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_park_ranger.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_park_ranger.png</IconFilename>
                 <InfoDescription>2143505327</InfoDescription>
                 </Standard>
                 <ItemEffect>
@@ -1380,7 +1380,7 @@
                 <Standard>
                 <GUID>2143505328</GUID>
                 <Name>Industrial Firestation Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_industrial_fire_brigade.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_industrial_fire_brigade.png</IconFilename>
                 <InfoDescription>2143505329</InfoDescription>
                 </Standard>
                 <ItemEffect>
@@ -1441,7 +1441,7 @@
                 <Standard>
                 <GUID>2143505372</GUID>
                 <Name>Mine Emergency Station Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_mine_firestation.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_mine_firestation.png</IconFilename>
                 <InfoDescription>2143505373</InfoDescription>
                 </Standard>
                 <ItemEffect>
@@ -1494,7 +1494,7 @@
                 <Standard>
                 <GUID>2143505378</GUID>
                 <Name>Farm Emergency Station Effect</Name>
-                <IconFilename>data\ui\city_institution\icon_farm_fire_brigade.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_farm_fire_brigade.png</IconFilename>
                 <InfoDescription>2143505379</InfoDescription>
                 </Standard>
                 <ItemEffect>

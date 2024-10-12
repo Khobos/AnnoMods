@@ -142,7 +142,7 @@
           <Standard>
             <GUID>2143505358</GUID>
             <Name>Health Faculty</Name>
-            <IconFilename>data/ui/city_institution/icon_healthfaculty.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_healthfaculty.png</IconFilename>
             <InfoDescription>2143505311</InfoDescription>
           </Standard>
           <Building>
@@ -336,7 +336,7 @@
           <Standard>
             <GUID>2143505359</GUID>
             <Name>Alms House Effect</Name>
-            <IconFilename>data\ui\city_institution\icon_almshouse.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_almshouse.png</IconFilename>
             <InfoDescription>2143505360</InfoDescription>
           </Standard>
           <ItemEffect>
@@ -390,7 +390,7 @@
             <Standard>
               <GUID>2143505361</GUID>
               <Name>Health Faculty Effect</Name>
-              <IconFilename>data/ui/city_institution/icon_healthfaculty.png</IconFilename>
+              <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_healthfaculty.png</IconFilename>
               <InfoDescription>2143505362</InfoDescription>
             </Standard>
             <ItemEffect>
@@ -432,7 +432,7 @@
           <Standard>
             <GUID>2143505368</GUID>
             <Name>Hospitals Upgrade from Faculty Effect</Name>
-            <IconFilename>data/ui/city_institution/icon_healthfaculty.png</IconFilename>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_healthfaculty.png</IconFilename>
             <InfoDescription>2143505369</InfoDescription>
           </Standard>
           <ItemEffect>
