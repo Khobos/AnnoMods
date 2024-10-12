@@ -856,6 +856,7 @@
         </Standard>
       </Values>
     </Asset>
+  </ModOp>  
 
   <!-- Texts Assets -->
   <ModOp GUID="118032" Type="addNextSibling">
