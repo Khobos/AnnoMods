@@ -48,6 +48,10 @@
       "Dependant": "partly"
     },
     {
+      "DLC": "LandOfLions",
+      "Dependant": "partly"
+    },
+    {
       "DLC": "Tourism",
       "Dependant": "partly"
     },
@@ -55,6 +59,10 @@
       "DLC": "Highlife",
       "Dependant": "partly"
     },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "partly"
+    }
     {
       "DLC": "NewWorldRising",
       "Dependant": "partly"
