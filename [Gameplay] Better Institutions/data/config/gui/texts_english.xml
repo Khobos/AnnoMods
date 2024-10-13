@@ -58,7 +58,7 @@
     </Text>
     <Text>
       <GUID>2143505315</GUID>
-      <Text>Handles port transactions. Provides additionnal services for your port.</Text>
+      <Text>Handles port transactions. Provides services for your harbor.</Text>
     </Text>
 
     <Text>
@@ -355,6 +355,58 @@
     <Text>
       <GUID>2143505422</GUID>
       <Text>Stock Exchange</Text>
+    </Text>
+    <Text>
+      <GUID>2143505409</GUID>
+      <Text>Customs Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505425</GUID>
+      <Text>Sailors Fire Brigade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505426</GUID>
+      <Text>Sailors Fire Brigade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505427</GUID>
+      <Text>Sailors Fire Brigade</Text>
+    </Text>
+    <Text>
+      <GUID>2143505429</GUID>
+      <Text>Responds to fires within range. Provides services for your harbor.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505430</GUID>
+      <Text>Marine firefighters help to defense the harbor, against natural fires.. or acts of war.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505431</GUID>
+      <Text>Marine firefighters are involved in maintaining the port, against natural fires.. or acts of war.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505432</GUID>
+      <Text>Coastguards Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505433</GUID>
+      <Text>Coastguards Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505434</GUID>
+      <Text>Coastguards Office</Text>
+    </Text>
+    <Text>
+      <GUID>2143505435</GUID>
+      <Text>Coastguards surveillance</Text>
+    </Text>
+    <Text>
+      <GUID>2143505436</GUID>
+      <Text>Responds to riots within range. Provides services for your harbor.</Text>
+    </Text>
+    <Text>
+      <GUID>2143505437</GUID>
+      <Text>They patrol the harbor and the coast, which improve the visibility of port defence.</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -251,6 +251,15 @@
                       <Item>
                         <Asset>2143505413</Asset>
                       </Item>
+                      <Item>
+                        <Asset>2143505409</Asset>
+                      </Item>       
+                      <Item>
+                        <Asset>2143505425</Asset>
+                      </Item> 
+                      <Item>
+                        <Asset>2143505432</Asset>
+                      </Item>  
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -302,6 +311,15 @@
                     <UnlockAssets>
                       <Item>
                         <Asset>2143505413</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505409</Asset>
+                      </Item>       
+                      <Item>
+                        <Asset>2143505425</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2143505432</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>

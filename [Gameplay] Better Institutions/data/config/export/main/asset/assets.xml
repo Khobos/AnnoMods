@@ -130,7 +130,7 @@ TRIGGER REGION
   <Include File="../../../../khobs/firestations/assets.include.xml" />
   <Include File="../../../../khobs/police/assets.include.xml" />
   <Include File="../../../../khobs/hospitals/assets.include.xml" />
-  <!-- <Include File="../../../../khobs/harbor/assets.include.xml" /> -->
+  <Include File="../../../../khobs/harbor/assets.include.xml" />
   <Include File="../../../../khobs/public/assets.include.xml" />
   <Include File="../../../../khobs/vanilla-tweaks/assets.include.xml" />
   <Include File="../../../../khobs/triggers/assets.include.xml" />
@@ -171,13 +171,6 @@ TRIGGER REGION
       </Asset>
 
       
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-          </Standard>
-        </Values>
-      </Asset>
     </Group>
   </ModOp>
   <!-- End Texts Assets -->
