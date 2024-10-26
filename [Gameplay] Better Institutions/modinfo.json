@@ -62,7 +62,11 @@
     {
       "DLC": "SeedsOfChange",
       "Dependant": "partly"
-    }
+    },
+    {
+      "DLC": "EmpireOfTheSkies",
+      "Dependant": "partly"
+    },
     {
       "DLC": "NewWorldRising",
       "Dependant": "partly"
