@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# AnnoNewWorldMods
+# AnnoMods
 
 ## New World Shipyard
 
@@ -10,7 +9,6 @@ Version:
 
 Downloads:
 - Mod.io: [here](https://mod.io/g/anno-1800/m/new-world-steam-shipyard)
-- .zip Release: [here](https://github.com/Khorbos/AnnoNewWorldMods/releases/download/v1.0/NewWorldShipyard-1.0.zip)
 
 ## New World Seat Of Power
 
@@ -23,8 +21,3 @@ Version:
 
 Downloads:
 - Mod.io: [here](https://mod.io/g/anno-1800/m/new-world-seat-of-power)
-- .zip Release: [here](https://github.com/Khorbos/AnnoNewWorldMods/releases/download/v1.0.3/NewWorldSeatOfPower-1.0.4.zip)
-
-=======
-# AnnoMods
->>>>>>> df080cf (Initial commit)
