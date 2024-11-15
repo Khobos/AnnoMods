@@ -23,5 +23,3 @@ There are also some ideas for your industrial estates.
 - [Fire Department Institutions](./institutions/firestations.md)
 - [Law Enforcement Institutions](./institutions/lawenforcement.md)
 - [Medical and Healthcare Institutions](./institutions/medical.md)
-
-- [Public Services](./institutions/services.md)

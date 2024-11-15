@@ -8,7 +8,7 @@ The mod should work without any DLC.
 
 ## Content
 
-A simple mod aimed at providing more emergency and public buildings at all existing population levels.
+A simple mod aimed at providing more emergencies buildings at all existing population levels.
 
 This is mainly to diversify your cities, while offering complementary functions.
 

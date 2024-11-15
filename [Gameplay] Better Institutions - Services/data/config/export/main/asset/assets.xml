@@ -1,0 +1,70 @@
+<!-- 
+*********************
+Start from 2143505409
+End at 2143505XXX
+Max at 2143505443
+*********************  
+
+***************
+BUILDING REGION
+***************
+2143505413 - City Academy - PublicServiceBuilding
+2143505414 - Religious School - PublicServiceBuilding
+2143505415 - Trade Fair - Market
+2143505420 - Business School - PublicServiceBuilding
+2143505422 - Stock Exchange - PublicServiceBuilding
+2143505409 - Customs Office - BuffFactory
+
+***********
+TEXT REGION
+***********
+2143505315 - Customs Public/Emergency InfoDescription - Text
+2143505412 - Public Service InfoDescription - Text
+2143505416 - Big Fair InfoDescription - Text
+2143505418 - PlurialPublicServiceGUITypeDescription - Text
+
+***********
+BUFF REGION
+***********
+2143505410 - Customs Effect - TownhallBuff
+
+*********
+PRODUCTS
+*********
+2143505417 - ReligiousSchoolFakeProduct - Product
+2143505419 - CityAcademyFakeProduct - Product
+2143505421 - BusinessSchoolFakeProduct - Product
+2143505423 - StockExchangeFakeProduct - Product
+
+**************
+TRIGGER REGION
+**************
+2143505438 - Unlock at 500 Workers - Trigger
+2143505439 - Unhide/Unlock at 1 Artisan - Trigger
+2143505440 - Unhide/Unlock at 500 Artisans - Trigger
+2143505441 - Unlock at 1 Investor - Trigger
+2143505442 - Unlock at 750 Investors - Trigger
+2143505443 - Creative - Trigger
+-->
+
+<ModOps>
+  <Include File="../../../../khobs/harbor/assets.include.xml" />
+  <Include File="../../../../khobs/public/assets.include.xml" />
+  <Include File="../../../../khobs/triggers/assets.include.xml" />
+  
+  <!-- Texts Assets -->
+  <ModOp Type="addNextSibling" GUID="1010463">
+    <Group>   
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505315</GUID>
+            <Name>Customs Public/Emergency InfoDescription</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </Group>
+  </ModOp>
+  <!-- End Texts Assets -->
+</ModOps>

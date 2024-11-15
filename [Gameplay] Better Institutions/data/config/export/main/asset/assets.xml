@@ -20,12 +20,8 @@ BUILDING REGION
 2143505342 - Municipal Prison - CityInstitutionBuilding
 2143505343 - Metropolitan Prison - CityInstitutionBuilding
 2143505344 - Police Academy - CityInstitutionBuilding
-
 2143505357 - Alms House - CityInstitutionBuilding
 2143505358 - Health Faculty - CityInstitutionBuilding
-
-2143505365 - Customs Office - CityInstitutionBuilding
-
 ***********
 SKIN REGION
 ***********
@@ -46,7 +42,6 @@ TEXT REGION
 2143505312 - Fire Public/Emergency Special Parks InfoDescription - Text
 2143505313 - Fire Public/Emergency Special Industry InfoDescription - Text
 2143505314 - Police Public/Emergency Special Police InfoDescription - Text
-2143505315 - Customs Public/Emergency InfoDescription - Text
 2143505323 - City Fire Station Effect InfoDescription - Text
 2143505325 - Main Fire Station Effect InfoDescription - Text
 2143505327 - Park Rangers Effect InfoDescription - Text 
@@ -68,7 +63,6 @@ TEXT REGION
 2143505360 - Almshouse Effect InfoDescription - Text
 2143505362 - Health Faculty Effect InfoDescription - Text
 
-2143505367 - Customs Office Effect InfoDescription - Text
 ****************
 CATEGORY REGION
 ****************
@@ -92,8 +86,6 @@ BUFF REGION
 
 2143505359 - Alms House Effect - TownhallBuff
 2143505361 - Health Faculty Effect - TownhallBuff
-
-2143505366 - Customs Effect - TownhallBuff
 
 *********
 PRODUCTS
@@ -131,7 +123,6 @@ TRIGGER REGION
   <Include File="../../../../khobs/police/assets.include.xml" />
   <Include File="../../../../khobs/hospitals/assets.include.xml" />
   <Include File="../../../../khobs/harbor/assets.include.xml" />
-  <Include File="../../../../khobs/public/assets.include.xml" />
   <Include File="../../../../khobs/vanilla-tweaks/assets.include.xml" />
   <Include File="../../../../khobs/triggers/assets.include.xml" />
   
@@ -156,21 +147,6 @@ TRIGGER REGION
           </Standard>
         </Values>
       </Asset>
-      
-      
-      
-      
-      <Asset>
-        <Template>Text</Template>
-        <Values>
-          <Standard>
-            <GUID>2143505315</GUID>
-            <Name>Customs Public/Emergency InfoDescription</Name>
-          </Standard>
-        </Values>
-      </Asset>
-
-      
     </Group>
   </ModOp>
   <!-- End Texts Assets -->
