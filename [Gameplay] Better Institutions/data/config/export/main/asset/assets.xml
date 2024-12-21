@@ -22,11 +22,13 @@ BUILDING REGION
 2143505344 - Police Academy - CityInstitutionBuilding
 2143505357 - Alms House - CityInstitutionBuilding
 2143505358 - Health Faculty - CityInstitutionBuilding
+2143505323 - Advanced Firestation - CityInstitutionBuilding
 ***********
 SKIN REGION
 ***********
 2143505335 - Black Roof Sheriff Office - Skin
 2143505338 - Brick Sheriff Office - Skin
+2143505322 - Medium Firestation - Skin
 
 ***********
 TEXT REGION
@@ -42,7 +44,6 @@ TEXT REGION
 2143505312 - Fire Public/Emergency Special Parks InfoDescription - Text
 2143505313 - Fire Public/Emergency Special Industry InfoDescription - Text
 2143505314 - Police Public/Emergency Special Police InfoDescription - Text
-2143505323 - City Fire Station Effect InfoDescription - Text
 2143505325 - Main Fire Station Effect InfoDescription - Text
 2143505327 - Park Rangers Effect InfoDescription - Text 
 2143505329 - Industrial Fire Station Effect InfoDescription - Text
@@ -74,8 +75,6 @@ CATEGORY REGION
 ***********
 BUFF REGION
 ***********
-2143505322 - City Firestation Effect - TownhallBuff
-2143505323 - Main Firestation Effect - TownhallBuff
 2143505324 - Park Ranger Effect - GuildhouseBuff
 2143505325 - Industrial Firestation Effect - GuildhouseBuff
 2143505372 - Mine Emergency Station - GuildhouseBuff

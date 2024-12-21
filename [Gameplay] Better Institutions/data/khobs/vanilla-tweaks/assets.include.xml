@@ -4,15 +4,54 @@
     <Group>
         <!-- Fire related -->
         <Group>
-            <!-- Add Smaller vanilla Fire Station variant -->
-            <ModOp GUID="1010463" Type="add" Path="/Values/Object/Variations">
-                <Item>
-                    <Filename>data/modgraphics/buildings/public/small_firestation/small_firestation.cfg</Filename>
-                </Item>
+            <ModOp GUID="1010463" Type="replace" Path="/Values/Standard/IconFilename">
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_1.png</IconFilename>
             </ModOp>
-            <ModOp GUID="1010463" Type="add" Path="/Values/Building">
-                <AllowChangeVariation>1</AllowChangeVariation>
-            </ModOp>           
+            <ModOp GUID="6354" Type="replace" Path="/Values/Standard/IconFilename">
+                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_advanced_dlc.png</IconFilename>
+            </ModOp>
+            <ModOp GUID="1010463" Type="replace" Path="/Values/IncidentResolver">
+                <IncidentResolver>
+                    <ResolverUnit>2143505332</ResolverUnit>
+                    <ResolverUnitCount>1</ResolverUnitCount>
+                    <SpecialUnit>100580</SpecialUnit>
+                    <SpecialUnitThresholds>
+                        <Item>
+                            <UnitAmount>2</UnitAmount>
+                            <HappinessThreshold>0</HappinessThreshold>
+                        </Item>
+                    </SpecialUnitThresholds>
+                    <ResolvableIncidents>Fire</ResolvableIncidents>
+                    <DuringConstructionText>17463</DuringConstructionText>
+                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ActionButtonText>3690</ActionButtonText>
+                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                </IncidentResolver>
+            </ModOp>
+            <ModOp GUID="1010463" Type="replace" Path="/Values/Upgradable">
+                <Upgradable>
+                    <NextGUID>2143505318</NextGUID>
+                    <UpgradeCost>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1250</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                    </UpgradeCost>
+                    <UpgradeMode>CityInstitutionBuilding</UpgradeMode>
+                </Upgradable>
+            </ModOp>
         </Group>
 
         <!-- Hospitals related -->
