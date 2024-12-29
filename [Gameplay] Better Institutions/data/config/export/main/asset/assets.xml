@@ -102,6 +102,9 @@ UNITS RELATED REGION
 *******************
 2143505332 - Fire Volunteer - IncidentResolverUnit
 2143505333 - Park Rangers - IncidentResolverUnit
+2143505365 - Veteran Firefigthers - IncidentResolverUnit
+2143505366 - Veteran Firefigthers - FeedbackUnitClass
+2143505367 - Veteran Firefigthers - TrafficFeedbackUnit
 
 2143505351 - Sheriff - IncidentResolverUnit
 2143505352 - Sheriff - FeedbackUnitClass

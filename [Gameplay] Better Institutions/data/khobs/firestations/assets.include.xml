@@ -505,7 +505,7 @@
             <PublicServiceData>
               <PublicServices>
                 <Item>
-                  <PublicService>6262</PublicService>
+                  <PublicService>2143505324</PublicService>
                 </Item>
               </PublicServices>
               <FullSatisfactionDistance>20</FullSatisfactionDistance>
@@ -598,9 +598,9 @@
           <Infolayer />
           <UpgradeList />
           <IncidentResolver>
-            <ResolverUnit>7266</ResolverUnit>
+            <ResolverUnit>2143505365</ResolverUnit>
             <ResolverUnitCount>3</ResolverUnitCount>
-            <SpecialUnit>100579</SpecialUnit>
+            <SpecialUnit>7266</SpecialUnit>
 			      <SpecialActionCooldown>60000</SpecialActionCooldown>
             <SpecialUnitThresholds>
               <Item>
@@ -1463,56 +1463,6 @@
     <!-- Townhall/Guildhouse Buffs -->
     <ModOp GUID="135111" Type="addNextSibling">
         <Asset>
-            <Template>TownhallBuff</Template>
-            <Values>
-                <Standard>
-                <GUID>2143505324</GUID>
-                <Name>Main Firestation Effect</Name>
-                <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
-                <InfoDescription>2143505325</InfoDescription>
-                </Standard>
-                <ItemEffect>
-                <EffectTargets>
-                    <Item>
-                        <GUID>190041</GUID>
-                    </Item>
-                </EffectTargets>
-                <AllowStacking>0</AllowStacking>
-                </ItemEffect>
-                <BuildingUpgrade />
-                <Buff />
-                <PopulationUpgrade />
-                <ResidenceUpgrade>
-                    <AdditionalHappiness>8</AdditionalHappiness>
-                    <GoodConsumptionUpgrade>
-                        <Item>
-                            <ProvidedNeed>1010216</ProvidedNeed>
-                            <AmountInPercent>-25</AmountInPercent>
-                        </Item>
-                        <Item>
-                            <ProvidedNeed>1010214</ProvidedNeed>
-                            <AmountInPercent>-25</AmountInPercent>
-                        </Item>
-                        <Item>
-                            <ProvidedNeed>1010257</ProvidedNeed>
-                            <AmountInPercent>-15</AmountInPercent>
-                        </Item>
-                    </GoodConsumptionUpgrade>
-                </ResidenceUpgrade>
-                <IncidentInfectableUpgrade>
-                    <IncidentFireIncreaseUpgrade>
-                        <Value>-5</Value>
-                    </IncidentFireIncreaseUpgrade>
-                </IncidentInfectableUpgrade>
-                <CultureUpgrade />
-                <InfluenceSourceUpgrade />
-                <WarehouseUpgrade />
-                <DistributionUpgrade />
-                <ItemContainerUpgrade />
-                <FactoryUpgrade />
-            </Values>
-        </Asset>
-        <Asset>
             <Template>GuildhouseBuff</Template>
             <Values>
                 <Standard>
@@ -1896,6 +1846,33 @@
               </Product>
           </Values>
       </Asset>
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505324</GUID>
+            <Name>Dummy Fire Department</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/khobs/city_institution/icon_fire_brigade_intermediate.png</IconFilename>
+            <InfoDescription>14173</InfoDescription>
+            <!--DLC12AdvancedInstitutionEffectDescription-->
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Automated Fire Protection</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>60210</LineID>
+          </Text>
+          <Locked>
+            <DLCDependency>24963</DLCDependency>
+            <!--Anno 1800 DLC - New World Rising-->
+          </Locked>
+          <Product/>
+          <ExpeditionAttribute/>
+        </Values>
+      </Asset>
     </ModOp>
     <!-- End Product -->
 
@@ -1919,6 +1896,65 @@
                 <TextOverride>100580</TextOverride>
               </Text>
           </Values>
+      </Asset>
+      <Asset>
+          <Template>IncidentResolverUnit</Template>
+          <Values>
+              <Standard>
+              <GUID>2143505365</GUID>
+              <Name>Veteran Firefighters</Name>
+              <IconFilename>data/ui/2kimages/main/icons/icon_fire_brigade_2d.png</IconFilename>
+              </Standard>
+                <IncidentResolverUnit>
+                <ResolverOperatingDistance>113500</ResolverOperatingDistance>
+                <ResolverMovementSpeed>0.9</ResolverMovementSpeed>
+                <IntensityDecreaseRate>0.16</IntensityDecreaseRate>
+                <FeedbackUnitClass>2143505366</FeedbackUnitClass>
+              </IncidentResolverUnit>
+          </Values>
+      </Asset>
+      <Asset>
+          <Template>FeedbackUnitClass</Template>
+          <Values>
+              <Standard>
+                <GUID>2143505366</GUID>
+                <Name>Resolver Unit Veteran Firefighters</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+              </Standard>
+              <TrafficFeedbackClass>
+                <UnitAssets>
+                  <Item>
+                    <UnitAsset>2143505367</UnitAsset>
+                  </Item>
+                </UnitAssets>
+                <AllowedReactions />
+              </TrafficFeedbackClass>
+          </Values>
+      </Asset>
+      <Asset>
+        <Template>TrafficFeedbackUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>2143505367</GUID>
+            <Name>Resolver Unit Veteran Firefighters</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackUnit>
+            <UnitType>Vehicle</UnitType>
+            <CfgPath>data/muggenstuermer/vehicle/motorized_firefighter/motorized_firefighter_vehicle.cfg</CfgPath>
+            <SpeedSource>Managed</SpeedSource>
+            <OverwriteSpeed>1</OverwriteSpeed>
+            <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+          </TrafficFeedbackUnit>
+          <!-- <Trailer>
+            <TrailerCount>1</TrailerCount>
+            <TrailerEndPartCfgVariations>
+              <Item>
+                <CfgVariation>data/graphics/vehicle/horse_drawn_carriage_fire_service/horse_drawn_carriage_fire_service_rear.cfg</CfgVariation>
+              </Item>
+            </TrailerEndPartCfgVariations>
+          </Trailer> -->
+        </Values>
       </Asset>
       <Asset>
           <Template>IncidentResolverUnit</Template>
